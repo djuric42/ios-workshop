@@ -43,7 +43,8 @@
       "cordova-plugin-secure-key-store": {},
       "cordova-plugin-cookiemaster": {},
       "@castana/cordova-plugin-ios-xhr": {},
-      "com.cordova.plugins.cookiemaster": {}
+      "com.cordova.plugins.cookiemaster": {},
+      "lloyds-plugin": {}
     },
     "platforms": [
       "ios"
