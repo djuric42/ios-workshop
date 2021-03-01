@@ -2,6 +2,7 @@
   "name": "com.neptune.workshopapp1",
   "version": "1.0.0",
   "main": "www/index.html",
+  "author": "hendrik",
   "license": "Apache-2.0",
   "devDependencies": {
     "@castana/cordova-plugin-ios-xhr": "^1.0.3",
