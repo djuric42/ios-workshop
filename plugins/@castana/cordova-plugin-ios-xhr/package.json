@@ -1,0 +1,67 @@
+{
+  "_from": "@castana/cordova-plugin-ios-xhr",
+  "_id": "@castana/cordova-plugin-ios-xhr@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-Mt+9YV02uJATSq2yE0tJyemO9Eo9wt4xoxjBSnns4hvCpJxFk7YhW6AP8aHeaP3kdG9ivuTrswfLXSQdwziTtQ==",
+  "_location": "/@castana/cordova-plugin-ios-xhr",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@castana/cordova-plugin-ios-xhr",
+    "name": "@castana/cordova-plugin-ios-xhr",
+    "escapedName": "@castana%2fcordova-plugin-ios-xhr",
+    "scope": "@castana",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/@castana/cordova-plugin-ios-xhr/-/cordova-plugin-ios-xhr-1.0.3.tgz",
+  "_shasum": "edbfe7b98309fe8e6a8bde859151b4aa1bec6458",
+  "_spec": "@castana/cordova-plugin-ios-xhr",
+  "_where": "/Users/branislavdjuric/Workspace/workshop1/workshop1 1.0.0",
+  "author": {
+    "name": "CASTANA Solutions GmbH"
+  },
+  "bugs": {
+    "url": "https://github.com/CASTANA-Solutions/cordova-plugin-ios-xhr/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "@castana/cordova-plugin-ios-xhr",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova iOS 6+ File XHR Plugin",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "homepage": "https://github.com/CASTANA-Solutions/cordova-plugin-ios-xhr#readme",
+  "keywords": [
+    "cordova",
+    "wkwebview",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "main": " ",
+  "name": "@castana/cordova-plugin-ios-xhr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CASTANA-Solutions/cordova-plugin-ios-xhr.git"
+  },
+  "scripts": {
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
+    "test": "npm run jshint"
+  },
+  "version": "1.0.3"
+}

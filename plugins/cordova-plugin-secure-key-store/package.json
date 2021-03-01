@@ -1,0 +1,62 @@
+{
+  "_from": "cordova-plugin-secure-key-store",
+  "_id": "cordova-plugin-secure-key-store@1.5.5",
+  "_inBundle": false,
+  "_integrity": "sha512-7TsKB8HhckTT6RUPqGvWc8A2pfxVhYC2P3VQRS9CCGhU8C1fiXtBWbB5wWJ8KtTAk1QL5+aT0XwrhHvrRKOX5g==",
+  "_location": "/cordova-plugin-secure-key-store",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-secure-key-store",
+    "name": "cordova-plugin-secure-key-store",
+    "escapedName": "cordova-plugin-secure-key-store",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-secure-key-store/-/cordova-plugin-secure-key-store-1.5.5.tgz",
+  "_shasum": "4d49b4d8a2823032dc515a367cf85d37fe9a1c1b",
+  "_spec": "cordova-plugin-secure-key-store",
+  "_where": "/Users/branislavdjuric/Workspace/workshop1/workshop1 1.0.0",
+  "author": {
+    "name": "pradeep singh"
+  },
+  "bugs": {
+    "url": "https://github.com/pradeep1991singh/cordova-plugin-secure-key-store/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-secure-key-store",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin for securely saving keys, passwords or strings on devices.",
+  "homepage": "https://github.com/pradeep1991singh/cordova-plugin-secure-key-store#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "ecosystem:phonegap",
+    "mobile",
+    "android",
+    "ios",
+    "android-keystore",
+    "ios-keychain",
+    "sensitive-data-security",
+    "encryption-decryption",
+    "public-private-key"
+  ],
+  "license": "ISC",
+  "name": "cordova-plugin-secure-key-store",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeep1991singh/cordova-plugin-secure-key-store.git"
+  },
+  "version": "1.5.5"
+}

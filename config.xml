@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="com.neptune.workshopapp1" version="1.0.0" android-versionCode="100" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+		<name>workshop1</name>
+		<description>null</description>
+		<author email="" href="">null</author>
+		<content src="index.html"/>
+		<preference name="permissions" value="none"/>
+		<preference name="StatusBarOverlaysWebView" value="false"/>
+		<preference name="StatusBarStyle" value="default"/>
+		<preference name="LoadUrlTimeoutValue" value="70000"/>
+		<preference name="AutoHideSplashScreen" value="false"/>
+		<preference name="ShowSplashScreenSpinner" value="false"/>
+		<preference name="FadeSplashScreen" value="false"/>
+		<preference name="SplashShowOnlyFirstTime" value="false"/>
+		<preference name="DisallowOverscroll" value="true"/>
+		<preference name="NativeXHRLogging" value="none"/>
+		<preference name="AllowUntrustedCerts" value="true"/>
+		<preference name="InterceptRemoteRequests" value="all"/>
+		<preference name="allowFileAccessFromFileURLs" value="true"/>
+		<preference name="allowUniversalAccessFromFileURLs" value="true"/>
+		<preference name="Fullscreen" value="false"/>
+		<preference name="Orientation" value="default"/>
+		<preference name="SplashMaintainAspectRatio" value="true"/>
+		<preference name="SuppressesLongPressGesture" value="true"/>
+		<preference name="AndroidPersistentFileLocation" value="Compatibility"/>
+		<access origin="*"/>
+		<allow-intent href="http://*/*"/>
+		<allow-intent href="https://*/*"/>
+		<allow-intent href="tel:*"/>
+		<allow-intent href="sms:*"/>
+		<allow-intent href="mailto:*"/>
+		<allow-intent href="geo:*"/>
+		<allow-navigation href="*"/>
+		<access subdomains="true" origin="*"/>
+		<platform name="ios">
+				<preference name="SurpressLongPressGesture" value="true"/>
+				<edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+						<string>to take pictures/scan barcodes</string>
+
+				</edit-config>
+				<edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+						<string>to get pictures</string>
+
+				</edit-config>
+				<edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+						<string>to find things nearby</string>
+
+				</edit-config>
+				<edit-config target="NSFaceIDUsageDescription" file="*-Info.plist" mode="merge">
+						<string>to log on</string>
+
+				</edit-config>
+				<edit-config target="NSMicrophoneUsageDescription" file="*-Info.plist" mode="merge">
+						<string>capture video audio</string>
+
+				</edit-config>
+				<allow-intent href="itms:*"/>
+				<allow-intent href="itms-apps:*"/>
+				<feature name="CDVWKWebViewEngine">
+						<param name="ios-package" value="CDVWKWebViewEngine"/>
+
+				</feature>
+				<feature name="LaunchScreen">
+						<param name="ios-package" value="CDVLaunchScreen"/>
+
+				</feature>
+				<feature name="LocalStorage">
+						<param name="ios-package" value="CDVLocalStorage"/>
+
+				</feature>
+				<feature name="Console">
+						<param name="ios-package" value="CDVLogger"/>
+						<param name="onload" value="true"/>
+
+				</feature>
+				<feature name="HandleOpenUrl">
+						<param name="ios-package" value="CDVHandleOpenURL"/>
+						<param name="onload" value="true"/>
+
+				</feature>
+				<feature name="IntentAndNavigationFilter">
+						<param name="ios-package" value="CDVIntentAndNavigationFilter"/>
+						<param name="onload" value="true"/>
+
+				</feature>
+				<feature name="GestureHandler">
+						<param name="ios-package" value="CDVGestureHandler"/>
+						<param name="onload" value="true"/>
+
+				</feature>
+
+		</platform>
+		<plugin name="cordova-plugin-file-opener2" source="npm"/>
+		<plugin name="cordova-plugin-media-capture" source="npm"/>
+		<plugin name="cordova-plugin-device" source="npm"/>
+		<plugin name="cordova-plugin-dialogs" source="npm"/>
+		<plugin name="cordova-plugin-file" source="npm"/>
+		<plugin name="cordova-plugin-geolocation" source="npm"/>
+		<plugin name="cordova-plugin-inappbrowser" source="npm"/>
+		<plugin name="cordova-plugin-media" source="npm"/>
+		<plugin name="cordova-plugin-network-information" source="npm"/>
+    	
+		<plugin name="cordova-plugin-splashscreen" source="npm"/>
+		<plugin name="cordova-plugin-statusbar" source="npm"/>
+		<plugin name="cordova-plugin-whitelist" source="npm"/>
+		<plugin name="cordova-plugin-secure-key-store" source="npm"/>
+		<plugin name="cordova-plugin-cookiemaster" source="npm"/>
+		<plugin name="@castana/cordova-plugin-ios-xhr" source="npm"/>
+
+</widget>

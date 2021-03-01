@@ -1,0 +1,60 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-file-opener2": {
+      "PACKAGE_NAME": "com.neptune.workshopapp1"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "com.neptune.workshopapp1"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.neptune.workshopapp1"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.neptune.workshopapp1"
+    },
+    "cordova-plugin-geolocation": {
+      "GPS_REQUIRED": "true",
+      "PACKAGE_NAME": "com.neptune.workshopapp1"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.neptune.workshopapp1"
+    },
+    "cordova-plugin-media": {
+      "KEEP_AVAUDIOSESSION_ALWAYS_ACTIVE": "NO",
+      "PACKAGE_NAME": "com.neptune.workshopapp1"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.neptune.workshopapp1"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.neptune.workshopapp1"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.neptune.workshopapp1"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.neptune.workshopapp1"
+    },
+    "cordova-plugin-secure-key-store": {
+      "PACKAGE_NAME": "com.neptune.workshopapp1"
+    },
+    "com.cordova.plugins.cookiemaster": {
+      "PACKAGE_NAME": "com.neptune.workshopapp1"
+    },
+    "@castana/cordova-plugin-ios-xhr": {
+      "PACKAGE_NAME": "com.neptune.workshopapp1"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.neptune.workshopapp1"
+    }
+  }
+}

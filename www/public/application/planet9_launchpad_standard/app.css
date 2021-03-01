@@ -1,0 +1,4217 @@
+.sapUiLoSplitter.sapUiLoSplitterH>.sapUiLoSplitterBar.sapUiLoSplitterNoResize,
+.sapUiLoSplitter.sapUiLoSplitterV>.sapUiLoSplitterBar.sapUiLoSplitterNoResize {
+    height: 0 !important;
+    width: 0 !important;
+}
+
+.sapMBarPH {
+    display: inline-block !important;
+}
+
+.sapMShellBrandingBar {
+    background-color: transparent
+}
+
+.nepMobileTitle {
+    line-height: 48px;
+}
+
+.nepFormInput {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HELP LABLE */
+
+.sapUiFormLblColon .sapUiFormElementLbl>.sapMLabel.nepLabelHelp:after {
+    font-family: 'SAP-icons';
+    content: "\e1c4";
+    vertical-align: inherit;
+    margin-left: .325rem;
+}
+
+.sapMLabel.nepLabelHelp {
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.sapMLabel.nepLabelHelp::after {
+    pointer-events: all;
+}
+
+.sapUiFormResGridCont>.sapUiFormElementLbl>.nepLabelHelp.sapMLabel {
+    width: auto;
+}
+
+.sapUiRespGridMedia-Std-Phone.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanS12)>.sapMLabel.nepLabelHelp,
+.sapUiRespGridMedia-Std-Tablet.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanM12)>.sapMLabel.nepLabelHelp,
+.sapUiRespGridMedia-Std-Desktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanL12)>.sapMLabel.nepLabelHelp,
+.sapUiRespGridMedia-Std-LargeDesktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanXL12)>.sapMLabel.nepLabelHelp {
+    width: 100%;
+}
+
+.sapUiRespGridMedia-Std-Phone.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanS12)>.sapMLabel.nepLabelHelp:after,
+.sapUiRespGridMedia-Std-Tablet.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanM12)>.sapMLabel.nepLabelHelp:after,
+.sapUiRespGridMedia-Std-Desktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanL12)>.sapMLabel.nepLabelHelp:after,
+.sapUiRespGridMedia-Std-LargeDesktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanXL12)>.sapMLabel.nepLabelHelp:after {
+    content: ":";
+    pointer-events: none;
+}
+
+.sapUiRespGridMedia-Std-Phone.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanS12)>.sapMLabel.nepLabelHelp:before,
+.sapUiRespGridMedia-Std-Tablet.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanM12)>.sapMLabel.nepLabelHelp:before,
+.sapUiRespGridMedia-Std-Desktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanL12)>.sapMLabel.nepLabelHelp:before,
+.sapUiRespGridMedia-Std-LargeDesktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanXL12)>.sapMLabel.nepLabelHelp:before {
+    font-family: 'SAP-icons';
+    content: "\e1c4";
+    margin-right: .325rem;
+    vertical-align: inherit;
+    pointer-events: all;
+}
+
+/* HELP OBJECT HEADER */
+
+.sapMOHROuter.nepLabelHelp {
+    pointer-events: none;
+}
+
+.sapMOHROuter.nepLabelHelp .sapMOHRTitleText {
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.sapMOHROuter.nepLabelHelp .sapMOHRTitleText:after {
+    font-family: 'SAP-icons';
+    content: "\e1c4";
+    margin-left: .325rem;
+    font-size: .875rem;
+    pointer-events: all;
+}
+
+/* DIALOG WITH OBJECTHEADER*/
+
+.nepDialogWithObjHeader .sapMOHR {
+    margin-top: -.5rem;
+    padding-top: 0 !important;
+}
+
+.nepDialogWithObjHeader .sapMSwt {
+    border-radius: 0;
+}
+
+.nepDialogWithObjHeader.nepDocPop .sapMOHR {
+    margin-top: 0;
+    padding-top: 1.1rem !important;
+    border: 1px solid #dedede;
+    border-bottom: none;
+    border-radius: .25rem;
+}
+
+.nepDialogWithObjHeader .sapContrastPlus.sapMOHR.sapMOHRBgTranslucent,
+.sapContrastPlus .nepDialogWithObjHeader .sapMOHR.sapMOHRBgTranslucent {
+    background: #2f3c48;
+    box-shadow: none;
+}
+
+.nepDialogWithObjHeader.sapUiSizeCompact .sapMBar {
+    height: 2.5rem;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.nepDialogWithObjHeader.sapUiSizeCompact.sapMDialog>.sapMDialogTitle,
+.nepDialogWithObjHeader.sapUiSizeCompact .sapMDialog>.sapMDialogTitle {
+    height: 2.5rem;
+}
+
+.nepDialogWithObjHeader .nepCloseBtn {
+    z-index: 9999;
+}
+
+.nepDialogWithObjHeader .sapMOHRTitle h1,
+.nepDialogWithObjHeader .sapMOHRIntro .sapMText,
+.nepDialogWithObjHeader .sapMOHRIcon .sapUiIcon {
+    color: #cae4fb;
+}
+
+.nepDialogWithObjHeader .nepStateSuccess .sapMOHRIcon .sapUiIcon,
+.nepDialogWithObjHeader .nepStateSuccess .sapContrastPlus .sapMOHRIcon .sapUiIcon {
+    color: #abe2ab;
+}
+
+.nepDialogWithObjHeader .nepStateWarning .sapMOHRIcon .sapUiIcon,
+.nepDialogWithObjHeader .nepStateWarning .sapContrastPlus .sapMOHRIcon .sapUiIcon {
+    color: #e78c07;
+}
+
+.nepDialogWithObjHeader .nepStateError .sapMOHRIcon .sapUiIcon,
+.nepDialogWithObjHeader .nepStateError .sapContrastPlus .sapMOHRIcon .sapUiIcon {
+    color: #ff8888;
+}
+
+.nepDialogWithObjHeader .sapMOHRIcon {
+    top: .675rem;
+}
+
+.nepDialogWithObjHeader .sapMBtnIcon {
+    color: #cae4fb;
+}
+
+.nepDialogWithObjHeader .nepStackedToolBar.sapMTB {
+    border-left: 1px solid #ddd;
+    background: #fff;
+}
+
+.nepDialogWithObjHeader .sapUiLocalBusyIndicatorSizeMedium {
+    border-radius: .25rem;
+}
+
+.nepDialogWithObjHeader .sapMITH {
+    border-bottom: none;
+}
+
+.nepDialogSubObjHeader {
+    background: #2f3c48;
+    margin-top: -1rem;
+}
+
+.nepDialogSubObjHeader .sapMText {
+    color: #cae4fb;
+    padding: 0 1rem 1rem 7rem;
+}
+
+.nepDialogSubObjHeader .sapMDialog>.sapMDialogSection {
+    margin-top: -1rem;
+    height: calc(100% + 1rem);
+}
+
+.nepSubMenu.sapMPopover .sapMPopoverCont {
+    border-radius: 0 !important;
+}
+
+.nepSubMenu.sapMPopover {
+    border-radius: 0 !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0px;
+    min-width: 200px;
+}
+
+.nepSubMenu .sapMSLITitleOnly {
+    font-size: 0.875rem;
+}
+
+.nepSubMenu .sapMLIB {
+    border-bottom: none;
+}
+
+.nepFCard.sapFCard:not(.nepICCard) .sapFCardHeader:not(.nepFCardFooter) {
+    border-bottom: none;
+}
+
+.nepTileApplicationPanel .sapMPanelContent {
+    overflow: hidden
+}
+
+html.sap-desktop .nepDialogSubObjHeader .sapContrastPlus .sapMIBar.sapMFooter-CTX,
+html.sap-desktop .nepDialogSubObjHeader .sapContrastPlus.sapMIBar.sapMFooter-CTX {
+    border-top-color: #2f3c48;
+}
+
+.nepDialogSubObjHeader .sapContrastPlus.sapMOHR:not(.sapMOHRNoBorder),
+.nepDialogSubObjHeader .sapContrastPlus .sapMOHR:not(.sapMOHRNoBorder) {
+    box-shadow: 0 0.125rem 0 0 #3f5161, inset 0 -0.125rem 0 0 #2F3C45;
+}
+
+.nepDialogWithObjHeader.sapMDialog:not(.sapMDialogWithSubHeader)>header>.sapMIBar,
+.nepDialogWithObjHeader.sapMDialog>header:last-of-type .sapMIBar {
+    box-shadow: none;
+    background-color: #2f3c48;
+    border-top: none;
+}
+
+/* NEPTUNE TREE CATEGORY (TILE GROUPS)*/
+
+.nepTreeCategory li[aria-level="2"] {
+    padding-left: 1rem !important;
+}
+
+.nepTreeCategory li[aria-level="3"] {
+    padding-left: 2rem !important;
+}
+
+.nepTreeCategory li[aria-level="4"] {
+    padding-left: 3rem !important;
+}
+
+/*NEPTUNE*/
+
+.nepSideCollapsed {
+    padding-left: 68px;
+}
+
+.nepSideExpanded {
+    padding-left: 300px;
+}
+
+.nepSideMenu {
+    padding-left: 300px;
+}
+
+.nepSideMenuCollapsed {
+    padding-left: 368px;
+}
+
+.nepSideMenuExpanded {
+    padding-left: 600px;
+}
+
+.nepSmallFont {
+    font-size: 12px !important;
+}
+
+.nepLinks {
+    position: absolute;
+    bottom: 20px;
+}
+
+.nepPanLinks .sapMTB {
+    border-bottom: none;
+    margin-top: 20px;
+}
+
+@media (max-height: 550px) {
+    .nepPanLinks {
+        display: none;
+    }
+}
+
+.nepPanLogon {
+    border-bottom: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.sapUiTheme-sap_fiori_3_dark .nepPanLogon {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nepPanLogonBorder {
+    border-radius: 15px;
+}
+
+.nepFlexPhone .sapMFlexItem {
+    width: 100%;
+    height: 100%;
+}
+
+.nepLinkNoBorder.sapMTBStandard {
+    border-bottom: none;
+}
+
+.nepDocPage .sapMTabStrip {
+    padding-top: 0;
+    height: 44px;
+}
+
+.nepDocPage .sapMTabContainer {
+    padding-top: 0;
+}
+
+.nepDocPage {
+    overflow: hidden;
+}
+
+.nepTopMenu .iconNetwork .sapMBtnCustomIcon {
+    color: red !important;
+}
+
+#AppCacheDiaSettings .sapMITBContent {
+    border-bottom: none !important;
+}
+
+.sapMFT {
+    white-space: normal;
+}
+
+.nepPage .sapMPageEnableScrolling {
+    scroll-behavior: smooth;
+}
+
+.nepUserList .sapMLIB.sapMObjLItem {
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.nepUserList .sapMObjLIntro {
+    color: orange !important;
+}
+
+.nepNavBarBoxTitle {
+    padding-left: 15px;
+}
+
+.nepNavBarAction {
+    position: absolute;
+    top: -6px;
+}
+
+.nepNavBarAction .sapMBtnInner {
+    color: white;
+    border-radius: 6px !important;
+}
+
+.nepNavBarActionInverse .sapMBtnCustomIcon {
+    color: white !important;
+}
+
+.nepNavBarActionInverse .sapMBtnInner {
+    color: white !important;
+}
+
+.nepNavBarBoxIcon {
+    text-align: center;
+    min-width: 45px;
+}
+
+.nepTopMenu.sapMTBStandard {
+    height: 60px;
+}
+
+.nepTopMenu .sapMTB-Transparent-CTX.sapMTB {
+    padding-left: 0;
+    height: 48px;
+}
+
+.nepTopMenu .sapMTBNewFlex>* {
+    -webkit-flex-shrink: unset;
+    flex-shrink: unset;
+    overflow: hidden;
+}
+
+.nepTopMenu .sapMBtnIcon {
+    font-size: 1.375rem;
+}
+
+.nepTopMenu .sapMBtnInner {
+    background-color: transparent;
+}
+
+.nepTopMenu :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.nepTopMenu .sapMImgFocusable:focus {
+    outline: unset;
+}
+
+.nepTopMenuActive {
+    border-bottom: 4px solid orange;
+}
+
+.nepIconActive {
+    border-left: 4px solid orange;
+}
+
+html.sap-desktop .nepTopMenuActive.sapMBtn:focus>.sapMFocusable {
+    outline: none;
+}
+
+.nepNavBarTile {
+    cursor: pointer;
+}
+
+.nepShell .sapUiGlobalBackgroundColor,
+.nepShell .sapMShellGlobalInnerBackground {
+    background: transparent;
+}
+
+.nepShell .sapMShellBG.sapUiGlobalBackgroundImage {
+    background: transparent;
+}
+
+.nepListSetting .sapMLIB {
+    padding: 0 1rem 0 0.1rem;
+}
+
+/*OPENUI5*/
+
+.sapMDialogScroll {
+    height: 100%;
+}
+
+html.sap-desktop .sapMBtn:focus>.sapMFocusable {
+    outline: none;
+}
+
+/*TILES*/
+
+.nepTile .sapUiBlockCellTitle {
+    margin-bottom: 6px;
+}
+
+.nepPopCards.sapMPopover {
+    background: transparent;
+}
+
+.nepPopCards.sapMPopover .sapMPopoverCont {
+    background: transparent;
+}
+
+.nepTileCardsPop {
+    margin: 0;
+    box-shadow: none;
+    border-radius: 0 6px 6px 0;
+    border-left: none;
+}
+
+.nepTileCardsPop .sapUiBlockCellContent {
+    padding: 10px 10px 10px 4px;
+}
+
+.nepTileCardsRunning {
+    margin: 4px 4px 4px 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 6px;
+    border-left: 4px solid transparent;
+}
+
+.nepTileCardsRunning .sapUiBlockCellContent {
+    padding: 10px 10px 10px 4px;
+}
+
+.nepTileCards {
+    margin: 8px 8px 8px 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+}
+
+.nepTileCards:hover {
+    box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nepChartTile {
+    padding: 0 !important;
+}
+
+.nepCatPanel .sapMTBStandard {
+    border-bottom: none;
+}
+
+.nepCatPanel .sapMPanelContent {
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+.nepCatPanel .sapMTB {
+    border-bottom: none;
+}
+
+.nepCatPaddingImage {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    margin-bottom: -4px;
+}
+
+.nepCatNoPaddingImage {
+    margin-bottom: -4px;
+}
+
+.nepTileCardsFixed10 {
+    flex: unset !important;
+    width: calc(10% - 1rem);
+    min-width: 250px;
+}
+
+.nepTileCardsFixed20 {
+    flex: unset !important;
+    width: calc(20% - 1rem);
+    min-width: 250px;
+}
+
+.nepTileCardsFixed25 {
+    flex: unset !important;
+    width: calc(25% - 1rem);
+    min-width: 250px;
+}
+
+.nepTileCardsFixed30 {
+    flex: unset !important;
+    width: calc(30% - 1rem);
+    min-width: 250px;
+}
+
+.nepTileCardsFixed40 {
+    flex: unset !important;
+    width: calc(40% - 1rem);
+    min-width: 250px;
+}
+
+.nepTileCardsFixed50 {
+    flex: unset !important;
+    width: calc(50% - 1rem);
+    min-width: 250px;
+}
+
+.nepTileCardsFixed60 {
+    flex: unset !important;
+    width: calc(60% - 1rem);
+    min-width: 250px;
+}
+
+.nepTileCardsFixed70 {
+    flex: unset !important;
+    width: calc(70% - 1rem);
+    min-width: 250px;
+}
+
+.nepTileCardsFixed75 {
+    flex: unset !important;
+    width: calc(75% - 1rem);
+    min-width: 250px;
+}
+
+.nepTileCardsFixed80 {
+    flex: unset !important;
+    width: calc(80% - 1rem);
+    min-width: 250px;
+}
+
+.nepTileCardsFixed90 {
+    flex: unset !important;
+    width: calc(90% - 1rem);
+    min-width: 250px;
+}
+
+/* SCROLLBAR */
+
+html.sap-desktop .sapContrast ::-webkit-scrollbar-thumb,
+html.sap-desktop .sapContrast ::-webkit-scrollbar-thumb:hover {
+    background-color: #346187;
+}
+
+html.sap-desktop ::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: transparent !important;
+}
+
+html.sap-desktop ::-webkit-scrollbar-corner {
+    background-color: transparent !important;
+}
+
+html.sap-desktop ::-webkit-scrollbar-thumb {
+    background-color: #6b7d8e !important;
+}
+
+html.sap-desktop ::-webkit-scrollbar-thumb:hover {
+    background-color: #6b7d8e !important;
+}
+
+html.sap-desktop:not(.sap-tablet) .sapUiTableVSb::-webkit-scrollbar-thumb,
+html.sap-desktop.sap-tablet .sapUiTableVSb::-webkit-scrollbar-thumb {
+    border-left: unset !important;
+    border-right: unset !important;
+}
+
+html.sap-desktop:not(.sap-tablet) .sapUiTableHSb::-webkit-scrollbar-thumb,
+html.sap-desktop.sap-tablet .sapUiTableHSb::-webkit-scrollbar-thumb {
+    border-top: unset !important;
+    border-bottom: unset !important;
+}
+
+.sapUiTableVSb,
+.sapUiTableVSbBg,
+.sapUiTableVSb,
+.sapUiTableVSbBg {
+    width: 6px !important;
+}
+
+.sapUiTableVScr .sapUiTableHSb,
+.sapUiTableVScr .sapUiTableCtrlScr,
+.sapUiTableVScr .sapUiTableColHdrScr,
+.sapUiTableVScr .sapUiTableRowActionScr {
+    margin-right: 6px !important;
+}
+
+/*PASSCODE APP*/
+
+#boxNumpadPanel .sapMBtn {
+    height: 4.6rem;
+    margin: 5px;
+}
+
+#butNumpadClear-inner {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#boxNumpadPanel .sapMPanelContent {
+    border-bottom: none;
+    background: transparent;
+    overflow: hidden;
+}
+
+#boxNumpad02 {
+    margin: auto;
+}
+
+.numPad .sapMBtnInner {
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    height: 3.9rem;
+    min-width: 4rem;
+    border: none;
+    padding-top: .8rem;
+    font-size: 1.875rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-shadow: none;
+}
+
+#boxNumpadPanel .sapMBtnIcon {
+    color: #ffffff;
+    font-size: 1.875rem;
+}
+
+#boxNumpadPanel .sapMBtn:hover>.sapMBtnHoverable {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#boxNumpadPanel :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#boxNumpadPanel .sapMCbBg.sapMCbMarkChecked {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#boxNumpadPanel .sapMCbBg.sapMCbMarkChecked:before {
+    content: "";
+}
+
+#boxNumpadPanel .sapMCbBg {
+    background: #fff;
+    border: none;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    -webkit-focus-ring-color: none;
+}
+
+#boxNumpadPanel .sapMCb {
+    padding: 0 0 0 2rem;
+}
+
+#boxNumpadPanel .sapMCbBgDis {
+    opacity: 1;
+}
+
+.sapUiTheme-sap_fiori_3_dark .numPad .sapMBtnInner {
+    background: #29313a;
+}
+
+.sapUiTheme-sap_fiori_3_dark #boxNumpadPanel .sapMCbBg.sapMCbMarkChecked {
+    background: #29313a;
+}
+
+.animated {
+    -webkit-animation-duration: .9s;
+    -moz-animation-duration: .9s;
+    -o-animation-duration: .9s;
+    -ms-animation-duration: .9s;
+    animation-duration: .9s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.shake {
+    -webkit-animation-name: shake;
+    -moz-animation-name: shake;
+    -o-animation-name: shake;
+    -ms-animation-name: shake;
+    animation-name: shake;
+}
+
+@-webkit-keyframes shake {
+    0%,
+    100% {
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
+        -ms-transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translateX(-20px);
+        -moz-transform: translateX(-20px);
+        -o-transform: translateX(-20px);
+        -ms-transofmr: translateX(-20px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translateX(20px);
+        -moz-transform: translateX(20px);
+        -o-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+    }
+}
+
+@keyframes shake {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-20px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(20px);
+    }
+}
+
+/*NAVIGATION SIDEBAR*/
+
+@media only screen and (max-width:1600px) {
+    .nepNavPanel {
+        display: none
+    }
+}
+
+.navHidden {
+    visibility: hidden;
+}
+
+.nepNavPanel {
+    position: fixed;
+    height: 100%;
+    z-index: 11;
+    width: 200px;
+    right: 0px;
+    top: 48px;
+    transition-duration: 200ms;
+    transition-timing-function: linear
+}
+
+.nepNavPanel.minified {
+    pointer-events: none
+}
+
+.nepNavPanel.minified .nav-container {
+    pointer-events: auto;
+    width: 100px
+}
+
+.nepNavPanel.minified .nav-in-page {
+    pointer-events: none
+}
+
+.nepNavPanel.minified .nav-in-page .nav-link {
+    height: 4px;
+    opacity: 1
+}
+
+.nepNavPanel.minified .nav-in-page .nav-link.active {
+    height: 4px
+}
+
+.nepNavPanel.minified .nav-in-page .nav-link.active a {
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    font-weight: normal;
+    line-height: 1.1em;
+    font-size: 14px
+}
+
+.nepNavPanel.minified .nav-in-page .nav-link.active a.show {
+    opacity: 1;
+    transition-duration: 200ms;
+    transition-timing-function: linear
+}
+
+.nepNavPanel.minified .nav-in-page .nav-link a {
+    opacity: 0;
+    transition-duration: 200ms;
+    transition-timing-function: linear
+}
+
+.nepNavPanel .nav-container {
+    height: 100%
+}
+
+.nepNavPanel .nav-links {
+    display: inline-block;
+    width: 190px;
+    padding-left: 0px;
+}
+
+.nepNavPanel.full-state {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
+    transition-duration: 200ms;
+    transition-timing-function: linear
+}
+
+.nepNavPanel.full-state .nav-in-page .nav-link {
+    height: 26px;
+    opacity: 1
+}
+
+.nepNavPanel.full-state .nav-in-page .nav-link.active {
+    height: 42px
+}
+
+.nepNavPanel.full-state .nav-in-page .nav-link.active a {
+    font-weight: normal;
+    line-height: 1.1em;
+    font-size: 16px
+}
+
+.nepNavPanel.full-state .nav-in-page .nav-link a {
+    display: block;
+    opacity: 1
+}
+
+.nepNavPanel .nav-in-page {
+    width: 200px;
+    transform: translateY(50%);
+    position: absolute;
+    bottom: 50%
+}
+
+.nepNavPanel .nav-in-page .nav-link {
+    padding: 0 0 0 10px;
+    cursor: pointer;
+    border-right: 4px solid orange;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    opacity: 0
+}
+
+.nepNavPanel .nav-in-page .nav-link.active a,
+.nepNavPanel .nav-in-page .nav-link:hover a {
+    color: #fff;
+    line-height: 1.1em
+}
+
+.nepNavPanel .nav-in-page .nav-link.active {
+    height: 42px
+}
+
+.nepNavPanel .nav-in-page .nav-link.active a {
+    font-weight: normal;
+    line-height: 1.1em;
+    font-size: 16px
+}
+
+.nepNavPanel .nav-in-page .nav-link.initial {
+    opacity: 1;
+    transition-duration: 1000ms;
+    transition-timing-function: linear
+}
+
+.nepNavPanel .nav-in-page .nav-link a {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.1em;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+/* P8 */
+
+html[data-sap-ui-animation='on'] .nepCatPanel .sapMPanelContent {
+    transform: none;
+}
+
+.nepCatPanel.nepCatTitleLayoutTitle.sapMPanel {
+    min-height: 60px;
+}
+
+.nepCatPanel.nepCatTitleLayoutTitle.nepCatTitleLayoutSubTitle.sapMPanel {
+    min-height: 82px;
+}
+
+.nepCatPanel .sapMPanelContent {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.nepCatPanel .sapMTB {
+    border-bottom: none;
+}
+
+.nepCatTitleLayout {
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    position: absolute;
+    top: 0;
+    left: 1rem;
+}
+
+.nepCatTitle.sapMTitle {
+    font-size: 1.125rem;
+    color: #346187;
+    text-shadow: none;
+    font-weight: bold;
+    padding-top: 1.25rem;
+}
+
+.nepCatSubTitle.sapMTitle {
+    color: #346187;
+    text-shadow: none;
+}
+
+html[dir="rtl"] .nepCatTitleLayout {
+    right: 1rem;
+}
+
+html[dir="rtl"] .nepCatPanel .sapMPanelContent {
+    background-position: left;
+}
+
+/* P8 COPY */
+
+:root {
+    --xsmall: 380px;
+    --small: 680px;
+    --medium: 980px;
+    --large: 1280px;
+    --xlarge: 1580px;
+    --xxlarge: 1880px;
+    --xxxlarge: 2360px;
+    --gridGap: 0px;
+    --gridHeight: 170px;
+    --grid1: 100%;
+    --grid2: 50%;
+    --grid3: 33.3333%;
+    --grid4: 25%;
+    --grid5: 20%;
+    --grid6: 16.6666%;
+    --grid8: 12.5%;
+    --grid10: 10%;
+    --grid12: 8.3333%;
+    --grid14: 7.1428%;
+    --cardMargin: .25rem;
+    --white: #fff;
+    --lightGreyPrimary: #dedede;
+    --lightGreySecondary: #ccc;
+    --darkGreyPrimary: #666;
+    --darkGreySecondary: #888;
+    --lightPrimaryColor: #fafafa;
+    --lightSecondaryColor: #d3d7d9;
+    --darkPrimaryColor: #333;
+    --darkSecondaryColor: #444;
+    --darkThemePrimaryBackground: #1C2228;
+    --darkThemeSecondaryBackground: #29313a;
+    --lightThemeNotification: #dd0000;
+    --darkThemeNotification: #dd0000;
+    --lightThemeRequired: #c14646;
+    --darkThemeRequired: #c14646;
+    --lightActiveMenuColor: var(--lightSecondaryColor);
+    --darkActiveMenuColor: var(--darkSecondaryColor);
+    --quartzDarkPrimary: #91c8f6;
+}
+
+.nepDialogWithObjHeader.sapMDialog {
+    transform: none;
+}
+
+.nepBtnIcon .sapMBtnContent {
+    margin-left: .5rem;
+}
+
+.nepLayout .nepFCard.sapFCard .nepFCardBody.sapFCardHeader {
+    padding: 0;
+    /*clip-path: initial !important;*/
+    box-shadow: none;
+}
+
+.nepFCardBody.sapFCardHeader .sapFCardIcon.sapFAvatar {
+    justify-content: flex-end;
+}
+
+.nepSubMenu .sapMBtn .sapMBtnInner {
+    justify-content: flex-start;
+}
+
+html[dir="rtl"] .nepTreeItemAction .sapMSTIIcon {
+    margin: 0.5rem 0 0.5rem 0.75rem;
+}
+
+.nepNavBarContent,
+.nepMainBar {
+    position: relative;
+    z-index: 89;
+}
+
+.nepTreeCategory .sapMTreeItemBaseExpander.sapUiIcon:before {
+    content: "\f0da";
+}
+
+.nepTreeCategory li[aria-expanded="true"] .sapMTreeItemBaseExpander.sapUiIcon:before {
+    content: "\f0d7";
+}
+
+.nepSideAppTab.sapMTabContainer {
+    padding-top: 0;
+}
+
+.nepLogonContainer {
+    height: 75%;
+}
+
+.nepLogonLayout {
+    padding: 1rem;
+    border-radius: .5rem;
+    margin: auto;
+}
+
+@media (max-width: 420px) {
+    .nepLogonContainer {
+        height: auto;
+    }
+    .nepLogonLayout {
+        padding: 0;
+        border-radius: 0;
+        margin: auto;
+    }
+}
+
+.nepLaunchpadOverflowContainer {
+    position: absolute;
+    top: 0;
+    width: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 97;
+}
+
+.nepLaunchpadOverflowClickArea {
+    position: absolute;
+    top: 0;
+    z-index: 98;
+    bottom: 0;
+}
+
+html[dir="ltr"] .nepLaunchpadOverflowClickArea {
+    right: 0;
+    left: 300px;
+}
+
+html[dir="rtl"] .nepLaunchpadOverflowClickArea {
+    right: 300px;
+    left: 0;
+}
+
+.nepLaunchpadMenuOverflow {
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    z-index: 99;
+}
+
+html[dir="ltr"] .nepLaunchpadMenuOverflow {
+    left: -300px;
+}
+
+html[dir="rtl"] .nepLaunchpadMenuOverflow {
+    right: -300px;
+}
+
+html[dir="ltr"] .nepLaunchpadMenuOverflowOpen {
+    left: 0;
+}
+
+html[dir="rtl"] .nepLaunchpadMenuOverflowOpen {
+    right: 0;
+}
+
+.nepLaunchpadSettingsContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 97;
+}
+
+.nepLaunchpadSettingsClickArea {
+    position: absolute;
+    top: 0;
+    z-index: 98;
+    bottom: 0;
+}
+
+html[dir="ltr"] .nepLaunchpadSettingsClickArea {
+    right: 300px;
+    left: 0;
+}
+
+html[dir="rtl"] .nepLaunchpadSettingsClickArea {
+    right: 0;
+    left: 300px;
+}
+
+.nepLaunchpadMenuSettings {
+    position: absolute;
+    top: 0;
+    /*right: -300px;*/
+    width: 300px;
+    height: 100%;
+    z-index: 99;
+    /*-webkit-transition: all .3s ease-out;*/
+    /*-moz-transition: all .3s ease-out;*/
+    /*-o-transition: all .3s ease-out;*/
+    /*transition: all .3s ease-out;*/
+}
+
+html[dir="ltr"] .nepLaunchpadMenuSettings {
+    right: -300px;
+}
+
+html[dir="rtl"] .nepLaunchpadMenuSettings {
+    left: -300px;
+    display: none;
+}
+
+html[dir="ltr"] .nepLaunchpadMenuSettingsOpen {
+    right: 0;
+}
+
+html[dir="rtl"] .nepLaunchpadMenuSettingsOpen {
+    left: 0;
+}
+
+.nepLaunchpadContentSideApp {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: none;
+}
+
+.nepHeaderSearch .sapMInput {
+    padding-right: .5rem;
+}
+
+.nepFCard .sapMListBGTranslucent .sapMListTblHeader,
+.nepFCard .sapMListBGTranslucent .sapMListTblFooter,
+.nepFCard .sapMListTblHeader>.sapMTableTH {
+    background-color: transparent;
+}
+
+.nepGridMany .nepTileSmall .sapFCardHeaderSideIndicators .sapFCardHeaderSideIndicator:last-child {
+    display: none;
+}
+
+.nepFCard.sapFCard.nepICCard {
+    height: 100%;
+}
+
+.nepFCard.sapFCard.nepICCardActionBottom {
+    min-height: calc(3rem - 2px);
+    height: calc(3rem - 2px);
+    clip-path: inset(0 -5px -5px -5px);
+    clip-path: inset(0 -5px -5px -5px);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.nepFCard.sapFCard.nepICCardActionTop {
+    clip-path: inset(-5px -5px 0 -5px);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 100%;
+}
+
+.nepFCardContainer,
+.nepTileContainer {
+    padding: .25rem;
+    padding: var(--cardMargin);
+    min-height: var(--gridHeight);
+}
+
+.nepFCardContainer.nepFCardPlain,
+.nepTileContainer.nepTilePlain {
+    padding: 0;
+}
+
+.nepFCardContainer>.sapMFlexItem,
+.nepFCardBody>.sapMFlexItem {
+    width: 100%;
+}
+
+.nepICCardContainer>.sapMFlexItem {
+    height: 100%;
+}
+
+.nepLaunchpadContent {
+    height: 100%;
+}
+
+.nepLaunchpadContentMain {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nepLaunchpadShell {
+    position: relative;
+}
+
+.nepLaunchpadMenuOverflow>.sapMFlexItem:last-child,
+.nepLaunchpadContentMenu>.sapMFlexItem,
+.nepLaunchpadContentNavigator>.sapMFlexItem,
+.nepLaunchpadContentMain>.sapMFlexItem,
+.nepLaunchpadContentSideApp>.sapMFlexItem {
+    height: 100% !important;
+}
+
+.nepFCard.sapFCard .sapFCardHeader {
+    box-shadow: none;
+}
+
+.nepFCard.sapFCard .sapFCardHeader.nepFCardFooter {
+    padding: 0;
+    width: 100%;
+    border-bottom: none;
+}
+
+.nepFCard.sapFCard.nepTileClickable .sapFCardHeader.nepFCardFooter {
+    border-bottom: none;
+}
+
+.nepFCard.sapFCard .sapFCardHeader.nepFCardFooter .sapFCardStatus {
+    padding: .25rem 1rem .25rem 0;
+    margin: 0;
+}
+
+html[dir="rtl"] .nepFCard.sapFCard .sapFCardHeader.nepFCardFooter .sapFCardStatus {
+    padding: .25rem 0 .25rem 1rem;
+}
+
+.nepFCard.sapFCard .sapFCardHeader {
+    background-color: transparent;
+}
+
+.nepFCard.sapFCard .sapFCardContent {
+    flex: 1;
+}
+
+.nepFCard.sapFCard {
+    height: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.nepFCard.sapFCard.sapFCardFitContent {
+    height: auto;
+}
+
+.nepFCardInlineImage {
+    margin-bottom: .5rem;
+}
+
+.nepFCard.sapFCard .sapFCardHeader.nepFCardFooter {
+    clip-path: inset(1px 0 -5px);
+}
+
+.nepFCard.sapFCard .sapFCardHeader.nepFCardFooter,
+.nepFCard.sapFCard .sapFCardHeader.nepFCardFooter.sapFCardNumericHeader .sapFCardHeaderIndicators {
+    flex-direction: row-reverse;
+}
+
+.nepFCard.sapFCard .nepCardAction {
+    padding: .25rem 0.85rem;
+    min-height: 2.5rem;
+}
+
+.nepFCard .sapSuiteRMCCircleBackground,
+.nepTile .sapSuiteRMCCircleBackground {
+    stroke: transparent;
+    fill: transparent;
+}
+
+.nepFCard .sapSuiteUiMicroChartNoData {
+    border-radius: .5rem;
+}
+
+html.sapUiMedia-Std-Phone .nepFCard .sapSuiteCpMCChartContent.sapSuiteCpMCSizeAuto,
+.nepFCard .sapSuiteCpMCChartContent.sapSuiteCpMCSizeS {
+    height: auto;
+}
+
+.nepTileClickable .sapFCardHeaderTitle,
+.nepTileClickable .sapFCardSubtitle {
+    pointer-events: none;
+}
+
+.nepTileClickable {
+    cursor: pointer;
+}
+
+.nepICCard .sapMLIB {
+    background: transparent;
+}
+
+.nepFCard .sapFCardHeaderSINumber span:first-child {
+    margin-right: .125rem;
+}
+
+html.sap-desktop .sapMDialog .sapMShellAppWidthLimited .sapMShellCentralBox {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+}
+
+@media (min-width: 1280px) {
+    html.sap-desktop .nepShell.sapMShellAppWidthLimited .sapMShellCentralBox {
+        width: 100%;
+        left: auto;
+        right: auto;
+        /* max-width: var(--large); */
+        margin: 0 auto 0 auto;
+    }
+}
+
+/* DIALOG WITH OBJECTHEADER */
+
+.nepDialogWithObjHeader .sapMOHR {
+    padding-top: 0 !important;
+}
+
+.nepDialogWithObjHeader.sapUiSizeCompact .sapMBar {
+    height: 2.5rem;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.nepDialogWithObjHeader.sapUiSizeCompact.sapMDialog>.sapMDialogTitle,
+.nepDialogWithObjHeader.sapUiSizeCompact .sapMDialog>.sapMDialogTitle {
+    height: 2.5rem;
+}
+
+.nepDialogWithObjHeader .nepCloseBtn {
+    z-index: 9999;
+}
+
+.nepDialogWithObjHeader .sapMOHRIcon {
+    top: .675rem;
+}
+
+.nepDialogWithObjHeader .sapUiLocalBusyIndicatorSizeMedium {
+    border-radius: .25rem;
+}
+
+.nepDialogSubObjHeader {
+    margin-top: -1rem;
+}
+
+.nepDialogSubObjHeader .sapMText {
+    padding: 0 1rem 1rem 7rem;
+}
+
+.nepDialogSubObjHeader .sapMDialog>.sapMDialogSection {
+    margin-top: -1rem;
+    height: calc(100% + 1rem);
+}
+
+.nepDialogWithObjHeader.sapMDialog:not(.sapMDialogWithSubHeader)>header>.sapMIBar,
+.nepDialogWithObjHeader.sapMDialog>header:last-of-type .sapMIBar,
+.nepPopover.sapMDialog:not(.sapMDialogWithSubHeader)>header>.sapMIBar,
+.nepPopover.sapMDialog>header:last-of-type .sapMIBar {
+    box-shadow: none;
+}
+
+.nepNotificationImage {
+    max-width: 2.25rem;
+    max-height: 2.25rem;
+}
+
+@media (max-width: 680px) {
+    .nepClientInstall {
+        flex-direction: column;
+    }
+}
+
+.nepClientInstallContainer {
+    padding: .5rem;
+}
+
+.nepClientInstallLayout {
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 100%;
+}
+
+.nepAppIcon {
+    border-radius: 2rem;
+}
+
+.nepOverflowMenu .sapMLIB,
+.nepMainBar .sapMLIB {
+    border: none;
+}
+
+.nepOverflowMenu .sapMBtn:hover>.sapMBtnHoverable,
+.nepMainBar .sapMBtn:hover>.sapMBtnHoverable {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.nepOverflowLogo {
+    margin-top: -.5rem;
+}
+
+.nepOverflowMenu .sapMBarLeft,
+.nepMainBar .sapMBarLeft {
+    padding: 0;
+    height: 2.75rem !important;
+}
+
+.nepOverflowMenu.sapMDialog>header.sapMDialogTitle .sapMImg {
+    margin-right: 0;
+    width: auto;
+}
+
+.nepMenuBtnHidden {
+    position: relative;
+    top: 48px;
+}
+
+.nepOpenAppsBtn {
+    margin-left: .3125rem;
+}
+
+.sapMBtn.nepOpenAppsBtn.nepOpenAppsBtnItem .sapMBtnContent {
+    max-width: 200px;
+}
+
+.sapUiSizeCompact .nepOpenAppsBtn {
+    margin-left: 0;
+}
+
+.nepOpenAppsBtnItem {
+    margin-left: 2.4375rem;
+}
+
+.sapUiSizeCompact .nepOpenAppsBtnItem {
+    margin-left: 1.675rem;
+}
+
+.nepOpenAppsAlone .nepOpenAppsBtn {
+    margin-left: 0;
+}
+
+.nepOpenAppsBtn .sapMBtnInner {
+    border: none;
+    background-color: transparent;
+}
+
+.nepOpenAppsBtn .sapMBtnContent {
+    padding-left: .5rem;
+}
+
+.sapUiSizeCompact .nepOpenAppsBtn .sapMBtnContent {
+    padding-left: .325rem;
+}
+
+.nepOpenAppsClose.sapUiIcon {
+    margin-right: 1rem;
+    font-size: 1rem !important;
+}
+
+.nepOverflowMenu .sapMBtnInner,
+.nepMainBar .sapMBtnInner {
+    border: none;
+    background-color: transparent;
+}
+
+.nepOverflowMenu .headerMobileMenu .sapMBtnIcon,
+.nepMainBar .headerMobileMenu .sapMBtnIcon {
+    font-size: 1.375rem;
+}
+
+.nepOverflowMenu .sapUiSizeCompact .nepOpenAppsBtn .sapMBtnIcon,
+.nepMainBar .sapUiSizeCompact .nepOpenAppsBtn .sapMBtnIcon {
+    font-size: 1.125rem;
+    padding-left: .5rem;
+}
+
+.nepOverflowMenu .sapUiSizeCompact .nepOpenAppsBtn.nepOpenAppsBtnItem .sapMBtnIcon,
+.nepMainBar .sapUiSizeCompact .nepOpenAppsBtn.nepOpenAppsBtnItem .sapMBtnIcon {
+    font-size: 1rem;
+}
+
+.nepOverflowMenu.sapUiPopupWithPadding .sapMDialogScrollCont {
+    padding: 0;
+}
+
+.nepTopMenuIconContainerDesktop,
+.nepTopMenuIconContainerMobile {
+    min-width: 48px;
+}
+
+.nepTopMenuIconContainerMobile {
+    max-width: 48px;
+}
+
+.nepTopMenuIconDesktop,
+.nepTopMenuIconMobile {
+    max-height: 36px;
+}
+
+.nepUserActionText.sapMText {
+    text-align: left;
+    margin: .5rem 0 .5rem 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.nepTopMenuIcon.sapMImg.sapMNoImg {
+    visibility: visible;
+}
+
+@media (max-width: 800px) {
+    .nepUserButton .sapMBtnContent {
+        display: none;
+    }
+}
+
+.nepTile .sapMNCIconImage {
+    margin-top: .75rem;
+}
+
+.nepFeed,
+.nepFeed .sapMText {
+    cursor: grab;
+}
+
+.nepTileContentContainer {
+    width: 100%;
+}
+
+.nepAppCacheUser .sapMLIB.sapMObjLItem {
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.nepAppCacheUser .sapMLIBFocusable:focus {
+    outline: none;
+}
+
+.nepSelectUser {
+    padding: 0 .5rem;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.nepSelectUserBtn.sapMBtn,
+.nepSelectUserBtn .sapMBtnInner.sapMBtnText {
+    padding: 0;
+}
+
+.nepSelectUserBtn .sapMBtnInner {
+    height: 3rem;
+}
+
+.nepSelectUserBtn .sapMBtnContent {
+    line-height: 2.875rem;
+}
+
+/* CHART FIX */
+
+.sapSuiteRMC.sapSuiteRMCSizeResponsive {
+    max-height: 4.75rem;
+    max-width: 4.75rem;
+}
+
+.nepMinimized .sapMTextLineClamp,
+.nepMinimized .sapMOHRTitleTextWrappable {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.sapMNC {
+    width: 100%;
+}
+
+.nepHiddenItem {
+    opacity: .25;
+    pointer-events: none;
+}
+
+.nepHiddenItem .sapMLIBIconDel {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* HELP LABLE */
+
+.sapUiFormLblColon .sapUiFormElementLbl>.sapMLabel.nepLabelHelp:after {
+    font-family: 'SAP-icons';
+    content: "\e1c4";
+    vertical-align: inherit;
+    margin-left: .325rem;
+}
+
+.sapMLabel.nepLabelHelp {
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.sapMLabel.nepLabelHelp::after {
+    pointer-events: all;
+}
+
+.sapUiFormResGridCont>.sapUiFormElementLbl>.nepLabelHelp.sapMLabel {
+    width: auto;
+}
+
+.sapUiRespGridMedia-Std-Phone.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanS12)>.sapMLabel.nepLabelHelp,
+.sapUiRespGridMedia-Std-Tablet.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanM12)>.sapMLabel.nepLabelHelp,
+.sapUiRespGridMedia-Std-Desktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanL12)>.sapMLabel.nepLabelHelp,
+.sapUiRespGridMedia-Std-LargeDesktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanXL12)>.sapMLabel.nepLabelHelp {
+    width: 100%;
+}
+
+.sapUiRespGridMedia-Std-Phone.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanS12)>.sapMLabel.nepLabelHelp:after,
+.sapUiRespGridMedia-Std-Tablet.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanM12)>.sapMLabel.nepLabelHelp:after,
+.sapUiRespGridMedia-Std-Desktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanL12)>.sapMLabel.nepLabelHelp:after,
+.sapUiRespGridMedia-Std-LargeDesktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanXL12)>.sapMLabel.nepLabelHelp:after {
+    content: ":";
+    pointer-events: none;
+}
+
+.sapUiRespGridMedia-Std-Phone.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanS12)>.sapMLabel.nepLabelHelp:before,
+.sapUiRespGridMedia-Std-Tablet.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanM12)>.sapMLabel.nepLabelHelp:before,
+.sapUiRespGridMedia-Std-Desktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanL12)>.sapMLabel.nepLabelHelp:before,
+.sapUiRespGridMedia-Std-LargeDesktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanXL12)>.sapMLabel.nepLabelHelp:before {
+    font-family: 'SAP-icons';
+    content: "\e1c4";
+    margin-right: .325rem;
+    vertical-align: inherit;
+    pointer-events: all;
+}
+
+.sapUiRespGridMedia-Std-Phone.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanS12)>.sapMLabel.nepLabelHelp:before,
+.sapUiRespGridMedia-Std-Tablet.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanM12)>.sapMLabel.nepLabelHelp:before,
+.sapUiRespGridMedia-Std-Desktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanL12)>.sapMLabel.nepLabelHelp:before,
+.sapUiRespGridMedia-Std-LargeDesktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanXL12)>.sapMLabel.nepLabelHelp:before {
+    font-family: 'SAP-icons';
+    content: "\e1c4";
+    margin-right: .325rem;
+    vertical-align: inherit;
+    pointer-events: all;
+}
+
+.sapMLabelRequired.nepLabelHelp:before {
+    content: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    position: inherit;
+    vertical-align: inherit;
+    line-height: inherit;
+}
+
+/* SCROLLBAR COLOR */
+
+html.sap-desktop.nepThemeLight ::-webkit-scrollbar-thumb,
+html.sap-desktop.nepThemeLight ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--lightGreySecondary);
+}
+
+html.sap-desktop.nepThemeDark ::-webkit-scrollbar-thumb,
+html.sap-desktop.nepThemeDark ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--darkThemeSecondaryBackground);
+}
+
+/* BACKGROUND COLOR */
+
+.nepThemeLight .nepTopMenu {
+    background: var(--white);
+}
+
+.nepThemeDark .nepTopMenu {
+    background: var(--darkThemePrimaryBackground);
+}
+
+.nepThemeLight .nepNavBarContent {
+    background: var(--white);
+}
+
+.nepThemeDark .nepNavBarContent {
+    background: var(--darkThemeSecondaryBackground);
+}
+
+.nepThemeLight .nepMainBar {
+    background: var(--white);
+}
+
+.nepThemeDark .nepMainBar {
+    background: var(--darkThemeSecondaryBackground);
+}
+
+.nepThemeLight .nepLayoutOpenApps {
+    background-color: var(--white);
+}
+
+.nepThemeDark .nepLayoutOpenApps {
+    background-color: var(--darkThemeSecondaryBackground);
+}
+
+.nepThemeLight .nepTopMenu .nepNotificationButton span.sapMBtnInner:hover {
+    background-color: var(--lightThemeNotification);
+}
+
+.nepThemeDark .nepTopMenu .nepNotificationButton span.sapMBtnInner:hover {
+    background-color: var(--darkThemeNotification);
+}
+
+.nepThemeLight .nepSelectUser {
+    background-color: var(--white);
+}
+
+.nepThemeDark .nepSelectUser {
+    background-color: var(--darkThemeSecondaryBackground);
+}
+
+.nepThemeLight .nepLaunchpadMenuSettings {
+    background: var(--white);
+}
+
+.nepThemeDark .nepLaunchpadMenuSettings {
+    background: var(--darkThemeSecondaryBackground);
+}
+
+.nepThemeLight .numPad .sapMBtnInner,
+.nepThemeLight .nepNumpadPanel .sapMCbBg.sapMCbMarkChecked,
+.nepThemeLight .nepNumpadPanel .sapMBtn:hover>.sapMBtnHoverable,
+.nepThemeLight .numPad:not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nepThemeDark .numPad .sapMBtnInner,
+.nepThemeDark .nepNumpadPanel .sapMCbBg.sapMCbMarkChecked,
+.nepThemeDark .nepNumpadPanel .sapMBtn:hover>.sapMBtnHoverable,
+.nepThemeDark .numPad:not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nepThemeLight .nepNumpadPanel .sapMCbBg {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.nepThemeDark .nepNumpadPanel .sapMCbBg {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.nepThemeLight .nepLogonLayout {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.nepThemeDark .nepLogonLayout {
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+@media (max-width: 420px) {
+    .nepThemeLight .nepLogonLayout,
+    .nepThemeDark .nepLogonLayout {
+        background-color: transparent;
+    }
+}
+
+.nepThemeLight .nepLogonLayoutBtn .sapMBtn:not(.numPad):hover>.sapMBtnHoverable {
+    background-color: var(--white);
+}
+
+.nepThemeDark .nepLogonLayoutBtn .sapMBtn:not(.numPad):hover>.sapMBtnHoverable {
+    background-color: var(--darkThemeSecondaryBackground);
+}
+
+/* TEXT COLOR */
+
+.nepNavBarActionInverse .sapMBtnCustomIcon {
+    color: white !important;
+}
+
+.nepNavBarActionInverse .sapMBtnInner {
+    color: white !important;
+}
+
+.nepThemeLight .nepMainBar .sapMBtnIcon,
+.nepThemeLight .nepTopMenuContent .sapMBtn,
+.nepThemeLight .nepTopMenuContent .sapMBtnInner,
+.nepThemeLight .nepTopMenuContent .sapMBtnIcon {
+    color: var(--darkSecondaryColor);
+}
+
+.nepThemeDark .nepMainBar .sapMBtnIcon,
+.nepThemeDark .nepTopMenuContent .sapMBtn,
+.nepThemeDark .nepTopMenuContent .sapMBtnInner,
+.nepThemeDark .nepTopMenuContent .sapMBtnIcon {
+    color: var(--lightSecondaryColor);
+}
+
+.nepThemeLight .nepTopMenuContent .sapMBtn:hover>.sapMBtnHoverable,
+.nepThemeLight .nepTopMenuContent :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive,
+.nepThemeLight .nepTopMenuContent :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive .sapMBtnIcon,
+.nepThemeLight .nepTopMenuContent span.sapMBtnInner.sapMBtnEmphasized,
+.nepThemeLight .nepTopMenuContent .sapMBtn:hover:not(.sapMBtnDisabled)>.sapMBtnHoverable.sapMBtnTransparent:not(.sapMBtnActive):not(.sapMToggleBtnPressed)>.sapMBtnIcon,
+.nepThemeLight .nepTopMenuContent *.sapMBtn:hover:not(.sapMBtnDisabled)>span.sapMBtnInner.sapMBtnTransparent:not(.sapMBtnActive):not(.sapMToggleBtnPressed)>.sapMBtnIcon,
+.nepThemeLight .nepTopMenuContent :not(.sapMBtnDisabled):not(.sapMSBActive)>span.sapMBtnInner.sapMBtnTransparent:not(.sapMBtnActive):not(.sapMToggleBtnPressed):hover>.sapMBtnIcon {
+    color: var(--darkPrimaryColor);
+}
+
+.nepThemeDark .nepTopMenuContent .sapMBtn:hover>.sapMBtnHoverable,
+.nepThemeDark .nepTopMenuContent :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive,
+.nepThemeDark .nepTopMenuContent :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive .sapMBtnIcon,
+.nepThemeDark .nepTopMenuContent span.sapMBtnInner.sapMBtnEmphasized,
+.nepThemeDark .nepTopMenuContent .sapMBtn:hover:not(.sapMBtnDisabled)>.sapMBtnHoverable.sapMBtnTransparent:not(.sapMBtnActive):not(.sapMToggleBtnPressed)>.sapMBtnIcon,
+.nepThemeDark .nepTopMenuContent *.sapMBtn:hover:not(.sapMBtnDisabled)>span.sapMBtnInner.sapMBtnTransparent:not(.sapMBtnActive):not(.sapMToggleBtnPressed)>.sapMBtnIcon,
+.nepThemeDark .nepTopMenuContent :not(.sapMBtnDisabled):not(.sapMSBActive)>span.sapMBtnInner.sapMBtnTransparent:not(.sapMBtnActive):not(.sapMToggleBtnPressed):hover>.sapMBtnIcon {
+    color: var(--lightPrimaryColor);
+}
+
+.nepThemeLight .sapMNCIconImage {
+    color: var(--darkPrimaryColor);
+}
+
+.nepThemeDark .sapMNCIconImage {
+    color: var(--lightPrimaryColor);
+}
+
+.nepThemeLight .nepSubMenu .sapMBtnInner {
+    color: var(--darkGreyPrimary);
+}
+
+.nepThemeDark .nepSubMenu .sapMBtnInner {
+    color: var(--lightGreyPrimary);
+}
+
+.nepThemeLight .nepOpenAppsBtn .sapMBtnInner,
+.nepThemeLight .nepTreeCategory .sapMTreeItemBaseExpander {
+    color: var(--darkGreyPrimary);
+}
+
+.nepThemeDark .nepOpenAppsBtn .sapMBtnInner,
+.nepThemeDark .nepTreeCategory .sapMTreeItemBaseExpander {
+    color: var(--lightGreyPrimary);
+}
+
+.nepThemeLight .nepOpenAppsBtn .sapMBtnIcon,
+.nepThemeLight .nepMainBar .sapMSFF,
+.nepThemeLight .nepMainBar .sapMSFB,
+.nepThemeLight .nepPopover .sapMSFF,
+.nepThemeLight .nepPopover .sapMSFB {
+    color: var(--darkGreySecondary);
+}
+
+.nepThemeDark .nepOpenAppsBtn .sapMBtnIcon,
+.nepThemeDark .nepMainBar .sapMSFF,
+.nepThemeDark .nepMainBar .sapMSFB,
+.nepThemeDark .nepPopover .sapMSFF,
+.nepThemeDark .nepPopover .sapMSFB {
+    color: var(--lightGreySecondary);
+}
+
+.nepThemeLight .sapMDialogStretched.nepPopover .nepOpenAppsBtn .sapMBtnIcon,
+.nepThemeLight .sapMDialogStretched .nepOpenAppsClose.sapUiIcon,
+.nepThemeLight .sapMDialogStretched.nepOverflowMenu .sapMSTIIcon,
+.nepThemeLight .sapMDialogStretched.nepOverflowMenu .nepTreeCategory .sapMTreeItemBaseExpander {
+    color: var(--darkGreySecondary);
+}
+
+.nepThemeDark .sapMDialogStretched.nepPopover .nepOpenAppsBtn .sapMBtnIcon,
+.nepThemeDark .sapMDialogStretched .nepOpenAppsClose.sapUiIcon,
+.nepThemeDark .sapMDialogStretched.nepOverflowMenu .sapMSTIIcon,
+.nepThemeDark .sapMDialogStretched.nepOverflowMenu .nepTreeCategory .sapMTreeItemBaseExpander {
+    color: var(--lightGreySecondary);
+}
+
+.nepThemeLight .sapMDialogStretched .nepOpenAppsBtn .sapMBtnInner,
+.nepThemeLight .sapMDialogStretched.nepOverflowMenu .nepOpenAppsBtn .sapMBtnInner,
+.nepThemeLight .sapMDialogStretched.nepOverflowMenu .sapMBtnInner,
+.nepThemeLight .sapMDialogStretched.nepOverflowMenu .sapMTreeItemBase {
+    color: var(--darkPrimaryColor);
+}
+
+.nepThemeDark .sapMDialogStretched .nepOpenAppsBtn .sapMBtnInner,
+.nepThemeDark .sapMDialogStretched.nepOverflowMenu .nepOpenAppsBtn .sapMBtnInner,
+.nepThemeDark .sapMDialogStretched.nepOverflowMenu .sapMBtnInner,
+.nepThemeDark .sapMDialogStretched.nepOverflowMenu .sapMTreeItemBase {
+    color: var(--lightPrimaryColor);
+}
+
+.nepThemeLight .nepOpenAppsClose.sapUiIcon {
+    color: var(--darkPrimaryColor);
+}
+
+.nepThemeDark .nepOpenAppsClose.sapUiIcon {
+    color: var(--lightPrimaryColor);
+}
+
+.nepThemeLight .nepPopover .sapMBtnIcon,
+.nepThemeLight .nepMainBar .sapMBtnIcon {
+    color: var(--darkGreySecondary);
+}
+
+.nepThemeDark .nepPopover .sapMBtnIcon,
+.nepThemeDark .nepMainBar .sapMBtnIcon {
+    color: var(--lightGreySecondary);
+}
+
+.nepThemeLight .nepOpenAppsBtn .sapMBtnIcon {
+    color: var(--darkGreyPrimary);
+}
+
+.nepThemeDark .nepOpenAppsBtn .sapMBtnIcon {
+    color: var(--lightGreyPrimary);
+}
+
+.nepThemeLight .nepPopover .sapMIBar-CTX.sapMHeader-CTX :not(.sapMBtnDisabled)>.sapMBtnActive,
+.nepThemeLight .nepPopover .sapMIBar-CTX.sapMFooter-CTX :not(.sapMBtnDisabled)>.sapMBtnActive,
+.nepThemeLight .nepMainBar .sapMIBar-CTX.sapMHeader-CTX :not(.sapMBtnDisabled)>.sapMBtnActive,
+.nepThemeLight .nepMainBar .sapMIBar-CTX.sapMFooter-CTX :not(.sapMBtnDisabled)>.sapMBtnActive {
+    color: var(--darkGreySecondary);
+}
+
+.nepThemeDark .nepPopover .sapMIBar-CTX.sapMHeader-CTX :not(.sapMBtnDisabled)>.sapMBtnActive,
+.nepThemeDark .nepPopover .sapMIBar-CTX.sapMFooter-CTX :not(.sapMBtnDisabled)>.sapMBtnActive,
+.nepThemeDark .nepMainBar .sapMIBar-CTX.sapMHeader-CTX :not(.sapMBtnDisabled)>.sapMBtnActive,
+.nepThemeDark .nepMainBar .sapMIBar-CTX.sapMFooter-CTX :not(.sapMBtnDisabled)>.sapMBtnActive {
+    color: var(--lightGreySecondary);
+}
+
+.nepThemeLight .nepPopover :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive .sapMBtnIcon,
+.nepThemeLight .nepPopover .sapMIBar-CTX .sapMLabel,
+.nepThemeLight .nepMainBar :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive .sapMBtnIcon,
+.nepThemeLight .nepMainBar .sapMIBar-CTX .sapMLabel {
+    color: var(--darkPrimaryColor);
+}
+
+.nepThemeDark .nepPopover :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive .sapMBtnIcon,
+.nepThemeDark .nepPopover .sapMIBar-CTX .sapMLabel,
+.nepThemeDark .nepMainBar :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive .sapMBtnIcon,
+.nepThemeDark .nepMainBar .sapMIBar-CTX .sapMLabel {
+    color: var(--lightPrimaryColor);
+}
+
+.nepThemeLight .nepListSetting .sapMLIB.sapMLIBActive {
+    color: var(--darkPrimaryColor);
+}
+
+.nepThemeDark .nepListSetting .sapMLIB.sapMLIBActive {
+    color: var(--lightPrimaryColor);
+}
+
+.nepThemeLight .nepUserActionText.sapMText {
+    color: var(--darkPrimaryColor);
+}
+
+.nepThemeDark .nepUserActionText.sapMText {
+    color: var(--lightPrimaryColor);
+}
+
+.nepThemeLight .nepNotificationItem .sapMLIBIconDel:not(.sapMBtnDisabled) .sapMBtnTransparent>.sapMBtnIcon {
+    color: var(--darkGreyPrimary);
+}
+
+.nepThemeDark .nepNotificationItem .sapMLIBIconDel:not(.sapMBtnDisabled) .sapMBtnTransparent>.sapMBtnIcon {
+    color: var(--lightGreyPrimary);
+}
+
+.nepThemeLight .nepPopSimpleTitle.sapMText {
+    color: var(--darkGreyPrimary);
+}
+
+.nepThemeDark .nepPopSimpleTitle.sapMText {
+    color: var(--lightGreyPrimary);
+}
+
+.nepThemeLight .sapMLabelRequired.nepLabelHelp:before {
+    color: var(--lightThemeRequired);
+}
+
+.nepThemeDark .sapMLabelRequired.nepLabelHelp:before {
+    color: var(--lightThemeRequired);
+}
+
+.nepThemeLight .nepNotifHeader.sapMText {
+    color: var(--darkGreyPrimary);
+}
+
+.nepThemeDark .nepNotifHeader.sapMText {
+    color: var(--lightGreyPrimary);
+}
+
+.nepThemeLight .nepFeed .sapMText {
+    color: var(--darkSecondaryColor);
+}
+
+.nepThemeDark .nepFeed .sapMText {
+    color: var(--lightSecondaryColor);
+}
+
+.nepThemeLight .nepFCard .sapSuiteUiMicroChartNoData {
+    color: var(--lightGreySecondary);
+}
+
+.nepThemeDark .nepFCard .sapSuiteUiMicroChartNoData {
+    color: var(--darkGreySecondary);
+}
+
+.nepThemeLight .nepNumpadPanel .sapMBtnIcon,
+.nepThemeLight .numPad .sapMBtnInner {
+    color: var(--darkPrimaryColor);
+}
+
+.nepThemeDark .nepNumpadPanel .sapMBtnIcon,
+.nepThemeDark .numPad .sapMBtnInner {
+    color: var(--lightPrimaryColor);
+}
+
+.nepThemeLight .nepLogonLayout .sapMBtnInner,
+.nepThemeLight .nepAppCacheUser .sapMLIB.sapMLIBActive,
+.nepThemeLight .nepAppCacheUser .sapMLIBActive div,
+.nepThemeLight .nepAppCacheUser .sapMLIBActive .sapMText {
+    color: var(--darkPrimaryColor);
+}
+
+.nepThemeDark .nepLogonLayout .sapMBtnInner,
+.nepThemeDark .nepAppCacheUser .sapMLIB.sapMLIBActive,
+.nepThemeDark .nepAppCacheUser .sapMLIBActive div,
+.nepThemeDark .nepAppCacheUser .sapMLIBActive .sapMText {
+    color: var(--lightPrimaryColor);
+}
+
+/* BORDER COLOR */
+
+.nepThemeLight .nepMainBar .sapMSFF,
+.nepThemeLight .nepPopover .sapMSFF,
+.nepThemeLight .nepMainBar .sapMSFF:hover,
+.nepThemeLight .nepPopover .sapMSFF:hover,
+.nepThemeLight .nepLaunchpadMenuSettings {
+    border-color: var(--lightGreyPrimary);
+}
+
+.nepThemeDark .nepMainBar .sapMSFF,
+.nepThemeDark .nepPopover .sapMSFF,
+.nepThemeDark .nepMainBar .sapMSFF:hover,
+.nepThemeDark .nepPopover .sapMSFF:hover,
+.nepThemeDark .nepLaunchpadMenuSettings {
+    border-color: var(--darkGreyPrimary);
+}
+
+.nepThemeLight .nepTopMenu,
+.nepThemeLight .nepMainBar,
+.nepThemeLight .nepNavBarContent,
+.nepThemeLight .nepNavBarContent .sapMTBStandard,
+.nepThemeLight .nepDocPage {
+    border-color: var(--lightGreySecondary);
+}
+
+.nepThemeDark .nepTopMenu,
+.nepThemeDark .nepMainBar,
+.nepThemeDark .nepNavBarContent,
+.nepThemeDark .nepNavBarContent .sapMTBStandard,
+.nepThemeDark .nepDocPage {
+    border-color: var(--darkGreySecondary);
+}
+
+.nepThemeLight .nepCatTitle.sapMTitle,
+.nepThemeLight .nepCatSubTitle.sapMTitle {
+    border-color: var(--darkPrimaryColor);
+}
+
+.nepThemeDark .nepCatTitle.sapMTitle,
+.nepThemeDark .nepCatSubTitle.sapMTitle {
+    border-color: var(--lightPrimaryColor);
+}
+
+.nepThemeLight .nepTopMenuActive,
+.nepThemeLight .nepTopMenuBtn.sapMBtn:hover,
+.nepThemeLight .nepLayoutOpenApps.nepIconActive {
+    border-color: var(--darkActiveMenuColor);
+}
+
+.nepThemeDark .nepTopMenuActive,
+.nepThemeDark .nepTopMenuBtn.sapMBtn:hover,
+.nepThemeDark .nepLayoutOpenApps.nepIconActive {
+    border-color: var(--lightActiveMenuColor);
+}
+
+.nepThemeLight .nepOverflowMenu.nepPopover.sapMPopover {
+    border-top-color: var(--darkActiveMenuColor);
+}
+
+.nepThemeDark .nepOverflowMenu.nepPopover.sapMPopover {
+    border-top-color: var(--lightActiveMenuColor);
+}
+
+.nepThemeLight .nepOverflowMenu.sapMPopover {
+    border-top-color: var(--darkActiveMenuColor);
+}
+
+.nepThemeDark .nepOverflowMenu.sapMPopover {
+    border-top-color: var(--lightActiveMenuColor);
+}
+
+.nepThemeLight .nepSelectUser {
+    border-color: var(--darkGreySecondary);
+}
+
+.nepThemeDark .nepSelectUser {
+    border-color: var(--lightGreySecondary);
+}
+
+.nepThemeLight .nepLogonLayout .sapMBtnInner {
+    border-color: var(--darkGreySecondary);
+}
+
+.nepThemeDark .nepLogonLayout .sapMBtnInner {
+    border-color: var(--lightGreySecondary);
+}
+
+.nepThemeLight .numPad:not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive {
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+.nepThemeDark .numPad:not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* BOX SHADOW */
+
+.nepThemeLight .nepLayoutOpenApps,
+.nepThemeLight .nepPinOpenApps,
+.nepThemeLight .nepOverflowMenu.sapMPopover,
+.nepThemeLight .nepPopover.sapMPopover,
+.nepThemeLight .nepTileCards,
+.nepThemeLight .nepFioriStyle .nepTile,
+.nepThemeLight .nepClientInstallLayout {
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.nepThemeDark .nepLayoutOpenApps,
+.nepThemeDark .nepPinOpenApps,
+.nepThemeDark .nepOverflowMenu.sapMPopover,
+.nepThemeDark .nepPopover.sapMPopover,
+.nepThemeDark .nepTileCards,
+.nepThemeDark .nepFioriStyle .nepTile,
+.nepThemeDark .nepClientInstallLayout {
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.nepThemeLight .nepFCard:hover,
+.nepThemeLight .nepLayoutOpenApps:hover,
+.nepThemeLight .nepPinOpenApps:hover,
+.nepThemeLight .nepOverflowMenu.sapMPopover:hover,
+.nepThemeLight .nepTileCards:hover,
+.nepThemeLight .nepFioriStyle .nepTile:hover,
+.nepThemeLight .nepICCardActionHover {
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.nepThemeDark .nepFCard:hover,
+.nepThemeDark .nepLayoutOpenApps:hover,
+.nepThemeDark .nepPinOpenApps:hover,
+.nepThemeDark .nepOverflowMenu.sapMPopover:hover,
+.nepThemeDark .nepTileCards:hover,
+.nepThemeDark .nepFioriStyle .nepTile:hover,
+.nepThemeDark .nepICCardActionHover {
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* SAP QUARTZ LIGHT */
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepThemeLight .nepActionContainer .sapMBtnInner,
+.nepThemeLight .nepActionContainer .sapMBtn:hover>.sapMBtnHoverable {
+    background-color: transparent;
+    border-color: var(--darkPrimaryColor);
+    color: var(--darkPrimaryColor);
+}
+
+.nepThemeLight .nepActionContainer .sapMBtnIcon {
+    color: var(--darkPrimaryColor);
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* SAP QUARTZ DARK */
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepThemeDark .nepActionContainer .sapMBtnInner,
+.nepThemeDark .nepActionContainer .sapMBtn:hover>.sapMBtnHoverable {
+    background-color: transparent;
+    border-color: var(--lightSecondaryColor);
+    color: var(--lightSecondaryColor);
+}
+
+.nepThemeDark .nepActionContainer .sapMBtnIcon,
+.nepThemeDark .nepFCard.sapFCard .sapFCardHeader .sapFCardIcon.sapFAvatar .sapUiIcon {
+    color: var(--lightSecondaryColor);
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* NEPTUNE TREE CATEGORY (TILE GROUPS)*/
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepTreeCategory li[aria-level="2"] {
+    padding-left: 2rem !important;
+}
+
+.nepTreeCategory li[aria-level="2"].nepTreeItemAction {
+    padding-left: 3rem !important;
+}
+
+.nepTreeCategory li[aria-level="3"] {
+    padding-left: 4rem !important;
+}
+
+.nepTreeCategory li[aria-level="3"].nepTreeItemAction {
+    padding-left: 5rem !important;
+}
+
+.nepTreeCategory li[aria-level="4"] {
+    padding-left: 6rem !important;
+}
+
+.nepTreeCategory li[aria-level="4"].nepTreeItemAction {
+    padding-left: 7rem !important;
+}
+
+.sapUiSizeCompact .nepTreeCategory li[aria-level="2"] {
+    padding-left: 1.5rem !important;
+}
+
+.sapUiSizeCompact .nepTreeCategory li[aria-level="2"].nepTreeItemAction {
+    padding-left: 2.25rem !important;
+}
+
+.sapUiSizeCompact .nepTreeCategory li[aria-level="3"] {
+    padding-left: 3rem !important;
+}
+
+.sapUiSizeCompact .nepTreeCategory li[aria-level="3"].nepTreeItemAction {
+    padding-left: 5rem !important;
+}
+
+.sapUiSizeCompact .nepTreeCategory li[aria-level="4"] {
+    padding-left: 6rem !important;
+}
+
+html[dir="rtl"] .nepTreeCategory li[aria-level="2"] {
+    padding-left: 0 !important;
+    padding-right: 2rem !important;
+}
+
+html[dir="rtl"] .nepTreeCategory li[aria-level="3"] {
+    padding-left: 0 !important;
+    padding-right: 4rem !important;
+}
+
+html[dir="rtl"] .nepTreeCategory li[aria-level="4"] {
+    padding-left: 0 !important;
+    padding-right: 6rem !important;
+}
+
+html[dir="rtl"] .sapUiSizeCompact .nepTreeCategory li[aria-level="2"] {
+    padding-left: 0 !important;
+    padding-right: 1.5rem !important;
+}
+
+html[dir="rtl"] .sapUiSizeCompact .nepTreeCategory li[aria-level="3"] {
+    padding-left: 0 !important;
+    padding-right: 3rem !important;
+}
+
+html[dir="rtl"] .sapUiSizeCompact .nepTreeCategory li[aria-level="4"] {
+    padding-left: 0 !important;
+    padding-right: 4.5rem !important;
+}
+
+.nepTreeCategory .sapMTreeItemBaseChildren {
+    background-color: transparent;
+}
+
+.nepTreeCategory .sapMTreeItemBaseExpander {
+    font-family: 'fa-solid' !important;
+}
+
+.nepTreeCategory .sapMTreeItemBaseLeaf>.sapMTreeItemBaseExpander {
+    opacity: 1;
+}
+
+.nepTreeCategory .nepTreeItemAction.sapMTreeItemBaseLeaf>.sapMTreeItemBaseExpander.sapUiIcon {
+    display: none;
+}
+
+.nepTreeCategory .sapMTreeItemBaseExpander.sapUiIcon {
+    font-family: 'fa-solid' !important;
+    font-size: 1.5rem;
+    margin-right: .125rem;
+}
+
+.sapUiSizeCompact .nepTreeCategory .sapMTreeItemBaseExpander.sapUiIcon {
+    font-size: 1.125rem;
+}
+
+.nepOpenAppsBtn:not(.nepOpenAppsBtnItem) .sapMBtnIcon {
+    font-size: 1.5rem;
+}
+
+.sapUiSizeCompact .nepOpenAppsBtn .sapMBtnIcon {
+    font-size: 1rem;
+}
+
+.sapUiSizeCompact .nepOpenAppsBtnMaster .sapMBtnIcon {
+    font-size: 1.125rem;
+    padding-left: .5rem;
+}
+
+.sapUiSizeCompact .nepTreeCategory .sapMBtnInner.sapMBtnText .sapMBtnIcon {
+    font-size: 1rem;
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* MENU*/
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepTopMenuContent .sapMBtnIcon {
+    font-size: 1.375rem;
+    line-height: 2.375rem;
+    width: 2.375rem;
+}
+
+.nepTopMenuContent .sapMBtn {
+    height: 3rem;
+}
+
+.nepTopMenuContent .sapMBtnInner {
+    height: 2.5rem;
+    min-width: 2.5rem;
+    border-radius: 0.2rem;
+}
+
+.nepTopMenuContent .sapMBtnContent {
+    line-height: 2.375rem;
+}
+
+.nepTopMenuContent .nepNotificationButton .sapMBtnInner {
+    height: 1.5rem;
+    min-width: 1.5rem;
+}
+
+.nepTopMenuContent .nepNotificationButton .sapMBtnInner.sapMBtnText,
+.nepTopMenuContent .nepNotificationButton .sapMBtnIconLeft+.sapMBtnIconRight,
+.nepTopMenuContent .nepNotificationButton .sapMBtnIconLeft+.sapMBtnIconLeft {
+    padding-left: .25rem;
+    padding-right: .25rem;
+}
+
+.nepTopMenuContent .nepNotificationButton .sapMBtnContent {
+    line-height: 1.5rem;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* CANVAS */
+
+/*--------------------------------------------------------------------------------------------------*/
+
+html.sap-desktop .nepShell.sapMShellAppWidthLimited .sapMShellCentralBox:before {
+    box-shadow: -15px 0 15px -15px rgba(0, 0, 0, 0.15) inset;
+    content: " ";
+    height: 100%;
+    left: -15px;
+    position: absolute;
+    top: 0;
+    width: 15px;
+}
+
+html.sap-desktop .nepShell.sapMShellAppWidthLimited .sapMShellCentralBox:after {
+    box-shadow: 15px 0 15px -15px rgba(0, 0, 0, 0.15) inset;
+    content: " ";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 15px;
+}
+
+html.sap-desktop .nepShellXXXLarge.nepShell.sapMShellAppWidthLimited>.sapMShellCentralBox {
+    max-width: var(--xxxlarge);
+}
+
+html.sap-desktop .nepShellXXLarge.nepShell.sapMShellAppWidthLimited>.sapMShellCentralBox {
+    max-width: var(--xxlarge);
+}
+
+html.sap-desktop .nepShellXLarge.nepShell.sapMShellAppWidthLimited>.sapMShellCentralBox {
+    max-width: var(--xlarge);
+}
+
+html.sap-desktop .nepShellLarge.nepShell.sapMShellAppWidthLimited>.sapMShellCentralBox {
+    max-width: var(--large);
+}
+
+html.sap-desktop .nepShellMedium.nepShell.sapMShellAppWidthLimited>.sapMShellCentralBox {
+    max-width: var(--medium);
+}
+
+html.sap-desktop .nepShellSmall.nepShell.sapMShellAppWidthLimited>.sapMShellCentralBox {
+    max-width: var(--small);
+}
+
+html.sap-desktop .nepShellXSmall.nepShell.sapMShellAppWidthLimited>.sapMShellCentralBox {
+    max-width: var(--xsmall);
+}
+
+.nepShellWidthApp .sapMShellCentralBox {
+    max-width: var(--large);
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* NORMAL GRID */
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepGrid {
+    display: grid;
+    grid-gap: var(--gridGap);
+    grid-template-columns: repeat(12, var(--grid12));
+    width: 100%;
+    margin-bottom: 8px;
+    margin-bottom: var(--gridGap);
+}
+
+.nepGrid.nepGridXXXLarge,
+.nepGrid.nepGroupXXXLarge {
+    grid-template-columns: repeat(10, var(--grid10));
+    width: 100%;
+}
+
+.nepGrid.nepGridXXLarge,
+.nepGrid.nepGroupXXLarge {
+    grid-template-columns: repeat(8, var(--grid8));
+    width: 100%;
+}
+
+.nepGrid.nepGridXLarge,
+.nepGrid.nepGroupXLarge {
+    grid-template-columns: repeat(6, var(--grid6));
+    width: 100%;
+}
+
+.nepGrid.nepGridLarge,
+.nepGrid.nepGroupLarge {
+    grid-template-columns: repeat(4, var(--grid4));
+    width: 100%;
+}
+
+.nepGrid.nepGridMedium,
+.nepGrid.nepGroupMedium {
+    grid-template-columns: repeat(3, var(--grid3));
+    width: 100%;
+}
+
+.nepGrid.nepGridSmall,
+.nepGrid.nepGroupSmall {
+    grid-template-columns: repeat(2, var(--grid2));
+    width: 100%;
+}
+
+.nepGrid.nepGridXSmall,
+.nepGrid.nepGroupXSmall {
+    grid-template-columns: var(--grid1);
+    width: 100%;
+}
+
+.nepHeaderXXXLarge,
+.nepGrid.nepGroupXXXLarge {
+    max-width: var(--xxxlarge);
+    margin: 0 auto 0 auto;
+}
+
+.nepHeaderXXLarge,
+.nepGrid.nepGroupXXLarge {
+    max-width: var(--xxlarge);
+    margin: 0 auto 0 auto;
+}
+
+.nepHeaderXLarge,
+.nepGrid.nepGroupXLarge {
+    max-width: var(--xlarge);
+    margin: 0 auto 0 auto;
+}
+
+.nepHeaderLarge,
+.nepGrid.nepGroupLarge {
+    max-width: var(--large);
+    margin: 0 auto 0 auto;
+}
+
+.nepHeaderMedium,
+.nepGrid.nepGroupMedium {
+    max-width: var(--medium);
+    margin: 0 auto 0 auto;
+}
+
+.nepHeaderSmall,
+.nepGrid.nepGroupSmall {
+    max-width: var(--small);
+    margin: 0 auto 0 auto;
+}
+
+.nepHeaderXSmall,
+.nepGrid.nepGroupXSmall {
+    max-width: var(--xsmall);
+    margin: 0 auto 0 auto;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* MANY GRID */
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepGrid.nepGridMany {
+    grid-template-columns: repeat(14, var(--grid14));
+    width: 100%;
+    margin-bottom: var(--gridGap);
+}
+
+.nepGrid.nepGridXXXLarge.nepGridMany,
+.nepGrid.nepGroupXXXLarge.nepGridMany {
+    grid-template-columns: repeat(12, var(--grid12));
+    width: 100%;
+}
+
+.nepGrid.nepGridXXLarge.nepGridMany,
+.nepGrid.nepGroupXXLarge.nepGridMany {
+    grid-template-columns: repeat(10, var(--grid10));
+    width: 100%;
+}
+
+.nepGrid.nepGridXLarge.nepGridMany,
+.nepGrid.nepGroupXLarge.nepGridMany {
+    grid-template-columns: repeat(8, var(--grid8));
+    width: 100%;
+}
+
+.nepGrid.nepGridLarge.nepGridMany,
+.nepGrid.nepGroupLarge.nepGridMany {
+    grid-template-columns: repeat(6, var(--grid6));
+    width: 100%;
+}
+
+.nepGrid.nepGridMedium.nepGridMany,
+.nepGrid.nepGroupMedium.nepGridMany {
+    grid-template-columns: repeat(3, var(--grid3));
+    width: 100%;
+}
+
+.nepGrid.nepGridSmall.nepGridMany,
+.nepGrid.nepGroupSmall.nepGridMany {
+    grid-template-columns: repeat(2, var(--grid2));
+    width: 100%;
+}
+
+.nepGrid.nepGridXSmall.nepGridMany,
+.nepGrid.nepGroupXSmall.nepGridMany {
+    grid-template-columns: var(--grid1);
+    width: 100%;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* FEW GRID */
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepGrid.nepGridFew {
+    grid-template-columns: repeat(8, var(--grid8));
+    width: 100%;
+    margin-bottom: var(--gridGap);
+}
+
+.nepGrid.nepGridXXXLarge.nepGridFew,
+.nepGrid.nepGroupXXXLarge.nepGridFew {
+    grid-template-columns: repeat(8, var(--grid8));
+    width: 100%;
+}
+
+.nepGrid.nepGridXXLarge.nepGridFew,
+.nepGrid.nepGroupXXLarge.nepGridFew {
+    grid-template-columns: repeat(6, var(--grid6));
+    width: 100%;
+}
+
+.nepGrid.nepGridXLarge.nepGridFew,
+.nepGrid.nepGroupXLarge.nepGridFew {
+    grid-template-columns: repeat(4, var(--grid4));
+    width: 100%;
+}
+
+.nepGrid.nepGridLarge.nepGridFew,
+.nepGrid.nepGroupLarge.nepGridFew {
+    grid-template-columns: repeat(2, var(--grid2));
+    width: 100%;
+}
+
+.nepGrid.nepGridMedium.nepGridFew,
+.nepGrid.nepGroupMedium.nepGridFew,
+.nepGrid.nepGridSmall.nepGridFew,
+.nepGrid.nepGroupSmall.nepGridFew,
+.nepGrid.nepGridXSmall.nepGridFew,
+.nepGrid.nepGroupXSmall.nepGridFew {
+    grid-template-columns: var(--grid1);
+    width: 100%;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* ONE GRID */
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepGrid.nepGridOne {
+    grid-template-columns: var(--grid1);
+    width: 100%;
+    margin-bottom: var(--gridGap);
+}
+
+.nepGrid.nepGridXXXLarge.nepGridOne,
+.nepGrid.nepGroupXXXLarge.nepGridOne,
+.nepGrid.nepGridXXLarge.nepGridOne,
+.nepGrid.nepGroupXXLarge.nepGridOne,
+.nepGrid.nepGridXLarge.nepGridOne,
+.nepGrid.nepGroupXLarge.nepGridOne,
+.nepGrid.nepGridLarge.nepGridOne,
+.nepGrid.nepGroupLarge.nepGridOne,
+.nepGrid.nepGridMedium.nepGridOne,
+.nepGrid.nepGroupMedium.nepGridOne,
+.nepGrid.nepGridSmall.nepGridOne,
+.nepGrid.nepGroupSmall.nepGridOne,
+.nepGrid.nepGridXSmall.nepGridOne,
+.nepGrid.nepGroupXSmall.nepGridOne {
+    grid-template-columns: var(--grid1);
+    width: 100%;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* TILE */
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepTile,
+.nepTileContentContainer {
+    height: calc(100% - 2 * var(--cardMargin));
+    min-height: var(--gridHeight);
+}
+
+.nepTile.nepTileCards>.sapMFlexItem {
+    height: 100%;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* TILE HEIGHT */
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepTileTall {
+    grid-row: auto / span 2;
+    min-height: calc(2 * var(--gridHeight));
+}
+
+.nepTileTower {
+    grid-row: auto / span 3;
+    min-height: calc(3 * var(--gridHeight));
+}
+
+.nepTileSkyscraper {
+    grid-row: auto / span 4;
+    min-height: calc(4 * var(--gridHeight));
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* TILE WIDTH */
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepTileMedium {
+    grid-column: auto / span 2;
+}
+
+.nepTileWide {
+    grid-column: auto / span 3;
+}
+
+.nepTileWider {
+    grid-column: auto / span 4;
+}
+
+.nepTileMax {
+    grid-column: auto / span 12;
+}
+
+.nepGroupXXXLarge .nepTileMax,
+.nepGridXXXLarge .nepTileMax {
+    grid-column: auto / span 10;
+}
+
+.nepGroupXXLarge .nepTileMax,
+.nepGridXXLarge .nepTileMax {
+    grid-column: auto / span 8;
+}
+
+.nepGroupXLarge .nepTileMax,
+.nepGridXLarge .nepTileMax {
+    grid-column: auto / span 6;
+}
+
+.nepGroupLarge .nepTileMax,
+.nepGridLarge .nepTileMax {
+    grid-column: auto / span 4;
+}
+
+.nepGroupMedium .nepTileWider,
+.nepGroupMedium .nepTileMax,
+.nepGridMedium .nepTileWider,
+.nepGridMedium .nepTileMax {
+    grid-column: auto / span 3;
+}
+
+.nepGroupSmall .nepTileWide,
+.nepGroupSmall .nepTileWider,
+.nepGroupSmall .nepTileMax,
+.nepGridSmall .nepTileWide,
+.nepGridSmall .nepTileWider,
+.nepGridSmall .nepTileMax {
+    grid-column: auto / span 2;
+}
+
+.nepGroupXSmall .nepTileMedium,
+.nepGroupXSmall .nepTileWide,
+.nepGroupXSmall .nepTileWider,
+.nepGroupXSmall .nepTileMax,
+.nepGridXSmall .nepTileMedium,
+.nepGridXSmall .nepTileWide,
+.nepGridXSmall .nepTileWider,
+.nepGridXSmall .nepTileMax {
+    grid-column: auto / span 1;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* TILE WIDTH MANY */
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepGridMany .nepTileMax {
+    grid-column: auto / span 14;
+}
+
+.nepGridMany.nepGroupXXXLarge .nepTileMax,
+.nepGridMany.nepGridXXXLarge .nepTileMax {
+    grid-column: auto / span 12;
+}
+
+.nepGridMany.nepGroupXXLarge .nepTileMax,
+.nepGridMany.nepGridXXLarge .nepTileMax {
+    grid-column: auto / span 10;
+}
+
+.nepGridMany.nepGroupXLarge .nepTileMax,
+.nepGridMany.nepGridXLarge .nepTileMax {
+    grid-column: auto / span 8;
+}
+
+.nepGridMany.nepGroupLarge .nepTileMax,
+.nepGridMany.nepGridLarge .nepTileMax {
+    grid-column: auto / span 6;
+}
+
+.nepGridMany.nepGroupMedium .nepTileWider,
+.nepGridMany.nepGroupMedium .nepTileMax,
+.nepGridMany.nepGridMedium .nepTileWider,
+.nepGridMany.nepGridMedium .nepTileMax {
+    grid-column: auto / span 3;
+}
+
+.nepGridMany.nepGroupSmall .nepTileWide,
+.nepGridMany.nepGroupSmall .nepTileWider,
+.nepGridMany.nepGroupSmall .nepTileMax,
+.nepGridMany.nepGridSmall .nepTileWide,
+.nepGridMany.nepGridSmall .nepTileWider,
+.nepGridMany.nepGridSmall .nepTileMax {
+    grid-column: auto / span 2;
+}
+
+.nepGridMany.nepGroupXSmall .nepTileMedium,
+.nepGridMany.nepGroupXSmall .nepTileWide,
+.nepGridMany.nepGroupXSmall .nepTileWider,
+.nepGridMany.nepGroupXSmall .nepTileMax,
+.nepGridMany.nepGridXSmall .nepTileMedium,
+.nepGridMany.nepGridXSmall .nepTileWide,
+.nepGridMany.nepGridXSmall .nepTileWider,
+.nepGridMany.nepGridXSmall .nepTileMax {
+    grid-column: auto / span 1;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* TILE WIDTH FEW */
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepGridFew .nepTileMax {
+    grid-column: auto / span 8;
+}
+
+.nepGridFew.nepGroupXXXLarge .nepTileMax,
+.nepGridFew.nepGridXXXLarge .nepTileMax {
+    grid-column: auto / span 8;
+}
+
+.nepGridFew.nepGroupXXLarge .nepTileMax,
+.nepGridFew.nepGridXXLarge .nepTileMax {
+    grid-column: auto / span 6;
+}
+
+.nepGridFew.nepGroupXLarge .nepTileMax,
+.nepGridFew.nepGridXLarge .nepTileMax {
+    grid-column: auto / span 4;
+}
+
+.nepGridFew.nepGroupLarge .nepTileWide,
+.nepGridFew.nepGroupLarge .nepTileWider,
+.nepGridFew.nepGroupLarge .nepTileMax,
+.nepGridFew.nepGridLarge .nepTileWide,
+.nepGridFew.nepGridLarge .nepTileWider,
+.nepGridFew.nepGridLarge .nepTileMax {
+    grid-column: auto / span 2;
+}
+
+.nepGridFew.nepGroupMedium .nepTileMedium,
+.nepGridFew.nepGroupMedium .nepTileWide,
+.nepGridFew.nepGroupMedium .nepTileWider,
+.nepGridFew.nepGroupMedium .nepTileMax,
+.nepGridFew.nepGridMedium .nepTileMedium,
+.nepGridFew.nepGridMedium .nepTileWide,
+.nepGridFew.nepGridMedium .nepTileWider,
+.nepGridFew.nepGridMedium .nepTileMax {
+    grid-column: auto / span 1;
+}
+
+.nepGridFew.nepGroupSmall .nepTileMedium,
+.nepGridFew.nepGroupSmall .nepTileWide,
+.nepGridFew.nepGroupSmall .nepTileWider,
+.nepGridFew.nepGroupSmall .nepTileMax,
+.nepGridFew.nepGridSmall .nepTileMedium,
+.nepGridFew.nepGridSmall .nepTileWide,
+.nepGridFew.nepGridSmall .nepTileWider,
+.nepGridFew.nepGridSmall .nepTileMax {
+    grid-column: auto / span 1;
+}
+
+.nepGridFew.nepGroupXSmall .nepTileMedium,
+.nepGridFew.nepGroupXSmall .nepTileWide,
+.nepGridFew.nepGroupXSmall .nepTileWider,
+.nepGridFew.nepGroupXSmall .nepTileMax,
+.nepGridFew.nepGridXSmall .nepTileMedium,
+.nepGridFew.nepGridXSmall .nepTileWide,
+.nepGridFew.nepGridXSmall .nepTileWider,
+.nepGridFew.nepGridXSmall .nepTileMax {
+    grid-column: auto / span 1;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* TILE WIDTH ONE */
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepGrid.nepGridOne .nepTileMedium,
+.nepGrid.nepGridOne .nepTileWide,
+.nepGrid.nepGridOne .nepTileWider,
+.nepGrid.nepGridOne .nepTileMax {
+    grid-column: auto / span 1;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* TILE ALIGNMENT 
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepHeaderAlignLeft,
+.nepGrid.nepGridAlignLeft {
+    margin: 0 auto 0 0;
+}
+
+.nepHeaderAlignRight,
+.nepGrid.nepGridAlignRight {
+    margin: 0 0 0 auto;
+}
+
+/* --------------------------------------------------------------------------------------------------
+/* FIORI TILES 
+/*--------------------------------------------------------------------------------------------------*/
+
+.nepGrid.nepGridFiori {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nepGridFiori .nepTileMax {
+    width: 100%;
+}
+
+.nepGridFiori .nepTile {
+    width: 11rem;
+    height: 11rem;
+}
+
+.nepGridFiori .nepTile.nepFioriStyleTwoByOne {
+    width: 22.5rem;
+}
+
+.nepTileCards {
+    height: 100%;
+}
+
+.nepTileCards,
+.nepFioriStyle .nepTile {
+    border-radius: 4px;
+}
+
+.nepFitTileContent .nepTileContentContainer {
+    min-height: auto;
+}
+
+.nepFitTileContent.nepTileCards {
+    height: auto;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* INTERNET EXPLORER */
+
+/*--------------------------------------------------------------------------------------------------*/
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .sapFCard .sapFCardHeader {
+        box-shadow: none !important;
+    }
+    .nepFCardContainer>.sapMFlexItem,
+    .nepFCardBody>.sapMFlexItem {
+        width: 100% !important;
+    }
+    .nepGrid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    html.sap-desktop .nepShell.sapMShellAppWidthLimited .sapMShellCentralBox {
+        max-width: 1280px;
+    }
+    html.sap-desktop .nepShellXXXLarge.nepShell.sapMShellAppWidthLimited .sapMShellCentralBox {
+        max-width: 2360px;
+    }
+    html.sap-desktop .nepShellXXLarge.nepShell.sapMShellAppWidthLimited .sapMShellCentralBox {
+        max-width: 1880px;
+    }
+    html.sap-desktop .nepShellXLarge.nepShell.sapMShellAppWidthLimited .sapMShellCentralBox {
+        max-width: 1580px;
+    }
+    html.sap-desktop .nepShellLarge.nepShell.sapMShellAppWidthLimited .sapMShellCentralBox {
+        max-width: 1280px;
+    }
+    html.sap-desktop .nepShellMedium.nepShell.sapMShellAppWidthLimited>.sapMShellCentralBox {
+        max-width: 980px;
+    }
+    html.sap-desktop .nepShellSmall.nepShell.sapMShellAppWidthLimited .sapMShellCentralBox {
+        max-width: 680px;
+    }
+    html.sap-desktop .nepShellXSmall.nepShell.sapMShellAppWidthLimited .sapMShellCentralBox {
+        max-width: 380px;
+    }
+    .nepShellWidthApp .sapMShellCentralBox {
+        max-width: 1280px;
+    }
+    .nepHeaderXXXLarge,
+    .nepGrid.nepGroupXXXLarge {
+        max-width: 2360px;
+    }
+    .nepHeaderXXLarge,
+    .nepGrid.nepGroupXXLarge {
+        max-width: 1880px;
+    }
+    .nepHeaderXLarge,
+    .nepGrid.nepGroupXLarge {
+        max-width: 1580px;
+    }
+    .nepHeaderLarge,
+    .nepGrid.nepGroupLarge {
+        max-width: 1280px;
+    }
+    .nepHeaderMedium,
+    .nepGrid.nepGroupMedium {
+        max-width: 980px;
+    }
+    .nepHeaderSmall,
+    .nepGrid.nepGroupSmall {
+        max-width: 680px;
+    }
+    .nepHeaderXSmall,
+    .nepGrid.nepGroupXSmall {
+        max-width: 380px;
+    }
+    /*--------------------------------------------------------------------------------------------------*/
+    /* TILE HEIGHT */
+    /*--------------------------------------------------------------------------------------------------*/
+    .nepTile,
+    .nepTileContentContainer,
+    .nepFCardContainer,
+    .nepTileContainer {
+        min-height: 270px;
+    }
+    .nepTileTall {
+        min-height: 540px;
+    }
+    .nepTileTower {
+        min-height: 710px;
+    }
+    .nepTileSkyscraper {
+        min-height: 880px;
+    }
+    /*--------------------------------------------------------------------------------------------------*/
+    /* TILE WIDTH */
+    /*--------------------------------------------------------------------------------------------------*/
+    .nepGrid .nepTileSmall {
+        width: 8.3333% !important;
+    }
+    .nepPageXXXLarge .nepGrid .nepTileSmall,
+    .nepGridXXXLarge.nepGrid .nepTileSmall {
+        width: 10% !important;
+    }
+    .nepPageXXLarge .nepGrid .nepTileSmall,
+    .nepGridXXLarge.nepGrid .nepTileSmall {
+        width: 12.5% !important;
+    }
+    .nepPageXLarge .nepGrid .nepTileSmall,
+    .nepGridXLarge.nepGrid .nepTileSmall {
+        width: 16.6666% !important;
+    }
+    .nepPageLarge .nepGrid .nepTileSmall,
+    .nepGridLarge.nepGrid .nepTileSmall {
+        width: 25% !important;
+    }
+    .nepPageMedium .nepGrid .nepTileSmall,
+    .nepGridMedium.nepGrid .nepTileSmall {
+        width: 50% !important;
+    }
+    .nepPageSmall .nepGrid .nepTileSmall,
+    .nepGridSmall.nepGrid .nepTileSmall,
+    .nepPageXSmall .nepGrid .nepTileSmall,
+    .nepGridXSmall.nepGrid .nepTileSmall {
+        width: 100% !important;
+    }
+    .nepGrid .nepTileMedium {
+        width: 25% !important;
+    }
+    .nepPageXLarge .nepGrid .nepTileMedium,
+    .nepGridXLarge.nepGrid .nepTileMedium,
+    .nepPageLarge .nepGrid .nepTileMedium,
+    .nepGridLarge.nepGrid .nepTileMedium {
+        width: 50% !important;
+    }
+    .nepPageMedium .nepGrid .nepTileMedium,
+    .nepGridMedium.nepGrid .nepTileMedium,
+    .nepPageSmall .nepGrid .nepTileMedium,
+    .nepGridSmall.nepGrid .nepTileMedium,
+    .nepPageXSmall .nepGrid .nepTileMedium,
+    .nepGridXSmall.nepGrid .nepTileMedium {
+        width: 100% !important;
+    }
+    .nepGrid .nepTileWide {
+        width: 25% !important;
+    }
+    .nepPageXLarge .nepGrid .nepTileWide,
+    .nepGridXLarge.nepGrid .nepTileWide {
+        width: 50% !important;
+    }
+    .nepPageLarge .nepGrid .nepTileWide,
+    .nepGridLarge.nepGrid .nepTileWide,
+    .nepPageMedium .nepGrid .nepTileWide,
+    .nepGridMedium.nepGrid .nepTileWide,
+    .nepPageSmall .nepGrid .nepTileWide,
+    .nepGridSmall.nepGrid .nepTileWide,
+    .nepPageXSmall .nepGrid .nepTileWide,
+    .nepGridXSmall.nepGrid .nepTileWide {
+        width: 100% !important;
+    }
+    .nepGrid .nepTileWider {
+        width: 50% !important;
+    }
+    .nepPageXLarge .nepGrid .nepTileWider,
+    .nepGridXLarge.nepGrid .nepTileWider,
+    .nepPageLarge .nepGrid .nepTileWider,
+    .nepGridLarge.nepGrid .nepTileWider,
+    .nepPageMedium .nepGrid .nepTileWider,
+    .nepGridMedium.nepGrid .nepTileWider,
+    .nepPageSmall .nepGrid .nepTileWider,
+    .nepGridSmall.nepGrid .nepTileWider,
+    .nepPageXSmall .nepGrid .nepTileWide,
+    .nepGridXSmall.nepGrid .nepTileWider {
+        width: 100% !important;
+    }
+    .nepGrid .nepTileMax {
+        width: 100% !important;
+    }
+    /*--------------------------------------------------------------------------------------------------*/
+    /* TILE WIDTH FEW */
+    /*--------------------------------------------------------------------------------------------------*/
+    .nepGridFew .nepTileSmall {
+        width: 10% !important;
+    }
+    .nepPageXXXLarge .nepGridFew .nepTileSmall,
+    .nepGridXXXLarge.nepGridFew .nepTileSmall {
+        width: 12.5% !important;
+    }
+    .nepPageXXLarge .nepGridFew .nepTileSmall,
+    .nepGridXXLarge.nepGridFew .nepTileSmall {
+        width: 16.6666% !important;
+    }
+    .nepPageXLarge .nepGridFew .nepTileSmall,
+    .nepGridXLarge.nepGridFew .nepTileSmall {
+        width: 25% !important;
+    }
+    .nepPageLarge .nepGridFew .nepTileSmall,
+    .nepGridLarge.nepGridFew .nepTileSmall {
+        width: 50% !important;
+    }
+    .nepPageMedium .nepGridFew .nepTileSmall,
+    .nepGridMedium.nepGridFew .nepTileSmall {
+        width: 100% !important;
+    }
+    .nepPageSmall .nepGridFew .nepTileSmall,
+    .nepGridSmall.nepGridFew .nepTileSmall,
+    .nepPageXSmall .nepGridFew .nepTileSmall,
+    .nepGridXSmall.nepGridFew .nepTileSmall {
+        width: 100% !important;
+    }
+    .nepGridFew .nepTileMedium {
+        width: 50% !important;
+    }
+    .nepPageXLarge .nepGridFew .nepTileMedium,
+    .nepGridXLarge.nepGridFew .nepTileMedium,
+    .nepPageLarge .nepGridFew .nepTileMedium,
+    .nepGridLarge.nepGridFew .nepTileMedium,
+    .nepPageMedium .nepGridFew .nepTileMedium,
+    .nepGridMedium.nepGridFew .nepTileMedium,
+    .nepPageSmall .nepGridFew .nepTileMedium,
+    .nepGridSmall.nepGridFew .nepTileMedium,
+    .nepPageXSmall .nepGridFew .nepTileMedium,
+    .nepGridXSmall.nepGridFew .nepTileMedium {
+        width: 100% !important;
+    }
+    .nepGridFew .nepTileWide {
+        width: 50% !important;
+    }
+    .nepPageXLarge .nepGridFew .nepTileWide,
+    .nepGridXLarge.nepGridFew .nepTileWide,
+    .nepPageLarge .nepGridFew .nepTileWide,
+    .nepGridLarge.nepGridFew .nepTileWide,
+    .nepPageMedium .nepGridFew .nepTileWide,
+    .nepGridMedium.nepGridFew .nepTileWide,
+    .nepPageSmall .nepGridFew .nepTileWide,
+    .nepGridSmall.nepGridFew .nepTileWide,
+    .nepPageXSmall .nepGridFew .nepTileWide,
+    .nepGridXSmall.nepGridFew .nepTileWide {
+        width: 100% !important;
+    }
+    .nepGridFew .nepTileWider,
+    .nepPageXLarge .nepGridFew .nepTileWider,
+    .nepGridXLarge.nepGridFew .nepTileWider,
+    .nepPageLarge .nepGridFew .nepTileWider,
+    .nepGridLarge.nepGridFew .nepTileWider,
+    .nepPageMedium .nepGridFew .nepTileWider,
+    .nepGridMedium.nepGridFew .nepTileWider,
+    .nepPageSmall .nepGridFew .nepTileWider,
+    .nepGridSmall.nepGridFew .nepTileWider,
+    .nepPageXSmall .nepGridFew .nepTileWide,
+    .nepGridXSmall.nepGridFew .nepTileWider {
+        width: 100% !important;
+    }
+    .nepGridFew .nepTileMax {
+        width: 100% !important;
+    }
+    /*--------------------------------------------------------------------------------------------------*/
+    /* TILE WIDTH ONE */
+    /*--------------------------------------------------------------------------------------------------*/
+    .nepGridOne .nepTileSmall,
+    .nepPageXXXLarge .nepGridOne .nepTileSmall,
+    .nepGridXXXLarge.nepGridOne .nepTileSmall,
+    .nepPageXXLarge .nepGridOne .nepTileSmall,
+    .nepGridXXLarge.nepGridOne .nepTileSmall,
+    .nepPageXLarge .nepGridOne .nepTileSmall,
+    .nepGridXLarge.nepGridOne .nepTileSmall,
+    .nepPageLarge .nepGridOne .nepTileSmall,
+    .nepGridLarge.nepGridOne .nepTileSmall,
+    .nepPageMedium .nepGridOne .nepTileSmall,
+    .nepGridMedium.nepGridOne .nepTileSmall,
+    .nepPageSmall .nepGridOne .nepTileSmall,
+    .nepGridSmall.nepGridOne .nepTileSmall,
+    .nepPageXSmall .nepGridOne .nepTileSmall,
+    .nepGridXSmall.nepGridOne .nepTileSmall,
+    .nepGridOne .nepTileMedium,
+    .nepPageXLarge .nepGridOne .nepTileMedium,
+    .nepGridXLarge.nepGridOne .nepTileMedium,
+    .nepPageLarge .nepGridOne .nepTileMedium,
+    .nepGridLarge.nepGridOne .nepTileMedium,
+    .nepPageMedium .nepGridOne .nepTileMedium,
+    .nepGridMedium.nepGridOne .nepTileMedium,
+    .nepPageSmall .nepGridOne .nepTileMedium,
+    .nepGridSmall.nepGridOne .nepTileMedium,
+    .nepPageXSmall .nepGridOne .nepTileMedium,
+    .nepGridXSmall.nepGridOne .nepTileMedium,
+    .nepGridOne .nepTileWide,
+    .nepPageXLarge .nepGridOne .nepTileWide,
+    .nepGridXLarge.nepGridOne .nepTileWide,
+    .nepPageLarge .nepGridOne .nepTileWide,
+    .nepGridLarge.nepGridOne .nepTileWide,
+    .nepPageMedium .nepGridOne .nepTileWide,
+    .nepGridMedium.nepGridOne .nepTileWide,
+    .nepPageSmall .nepGridOne .nepTileWide,
+    .nepGridSmall.nepGridOne .nepTileWide,
+    .nepPageXSmall .nepGridOne .nepTileWide,
+    .nepGridXSmall.nepGridOne .nepTileWide,
+    .nepGridOne .nepTileWider,
+    .nepPageXLarge .nepGridOne .nepTileWider,
+    .nepGridXLarge.nepGridOne .nepTileWider,
+    .nepPageLarge .nepGridOne .nepTileWider,
+    .nepGridLarge.nepGridOne .nepTileWider,
+    .nepPageMedium .nepGridOne .nepTileWider,
+    .nepGridMedium.nepGridOne .nepTileWider,
+    .nepPageSmall .nepGridOne .nepTileWider,
+    .nepGridSmall.nepGridOne .nepTileWider,
+    .nepPageXSmall .nepGridOne .nepTileWide,
+    .nepGridXSmall.nepGridOne .nepTileWider,
+    .nepGridOne .nepTileMax {
+        width: 100% !important;
+    }
+    .nepGrid.nepGridFiori .nepTileContainer {
+        width: 11.5rem !important;
+    }
+    .nepGrid.nepGridFiori .nepTileContainer.nepFioriStyleTwoByOne {
+        width: 23rem !important;
+    }
+    /* BACKGROUND COLOR */
+    .nepThemeLight .nepTopMenu {
+        background: white;
+    }
+    .nepThemeDark .nepTopMenu {
+        background: #1C2228;
+    }
+    .nepThemeLight .nepNavBarContent {
+        background: white;
+    }
+    .nepThemeDark .nepNavBarContent {
+        background: #29313a;
+    }
+    .nepThemeLight .nepMainBar {
+        background: white;
+    }
+    .nepThemeDark .nepMainBar {
+        background: #29313a;
+    }
+    .nepThemeLight .nepLayoutOpenApps {
+        background-color: white;
+    }
+    .nepThemeDark .nepLayoutOpenApps {
+        background-color: #29313a;
+    }
+    .nepThemeLight .nepTopMenu .nepNotificationButton span.sapMBtnInner:hover {
+        background-color: #dd0000;
+    }
+    .nepThemeDark .nepTopMenu .nepNotificationButton span.sapMBtnInner:hover {
+        background-color: #dd0000;
+    }
+    .nepThemeLight .nepSelectUser {
+        background-color: white;
+    }
+    .nepThemeDark .nepSelectUser {
+        background-color: #29313a;
+    }
+    .nepThemeLight .nepLaunchpadMenuSettings {
+        background: white;
+    }
+    .nepThemeDark .nepLaunchpadMenuSettings {
+        background: #29313a;
+    }
+    .nepThemeLight .numPad .sapMBtnInner,
+    .nepThemeLight .nepNumpadPanel .sapMCbBg.sapMCbMarkChecked,
+    .nepThemeLight .nepNumpadPanel .sapMBtn:hover>.sapMBtnHoverable,
+    .nepThemeLight .numPad:not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    .nepThemeDark .numPad .sapMBtnInner,
+    .nepThemeDark .nepNumpadPanel .sapMCbBg.sapMCbMarkChecked,
+    .nepThemeDark .nepNumpadPanel .sapMBtn:hover>.sapMBtnHoverable,
+    .nepThemeDark .numPad:not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    .nepThemeLight .nepNumpadPanel .sapMCbBg {
+        background: rgba(0, 0, 0, 0.1);
+    }
+    .nepThemeDark .nepNumpadPanel .sapMCbBg {
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .nepThemeLight .nepLogonLayout {
+        background: rgba(0, 0, 0, 0.1);
+    }
+    .nepThemeDark .nepLogonLayout {
+        background-color: rgb(255, 255, 255, 0.1);
+    }
+    .nepThemeLight .nepLogonLayoutBtn .sapMBtn:not(.numPad):hover>.sapMBtnHoverable {
+        background-color: white;
+    }
+    .nepThemeDark .nepLogonLayoutBtn .sapMBtn:not(.numPad):hover>.sapMBtnHoverable {
+        background-color: #29313a;
+    }
+    /* TEXT COLOR */
+    .nepNavBarActionInverse .sapMBtnCustomIcon {
+        color: white !important;
+    }
+    .nepNavBarActionInverse .sapMBtnInner {
+        color: white !important;
+    }
+    .nepThemeLight .nepMainBar .sapMBtnIcon,
+    .nepThemeLight .nepTopMenuContent .sapMBtn,
+    .nepThemeLight .nepTopMenuContent .sapMBtnInner,
+    .nepThemeLight .nepTopMenuContent .sapMBtnIcon {
+        color: #444;
+    }
+    .nepThemeDark .nepMainBar .sapMBtnIcon,
+    .nepThemeDark .nepTopMenuContent .sapMBtn,
+    .nepThemeDark .nepTopMenuContent .sapMBtnInner,
+    .nepThemeDark .nepTopMenuContent .sapMBtnIcon {
+        color: #d3d7d9;
+    }
+    .nepThemeLight .nepTopMenuContent .sapMBtn:hover>.sapMBtnHoverable,
+    .nepThemeLight .nepTopMenuContent :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive,
+    .nepThemeLight .nepTopMenuContent :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive .sapMBtnIcon,
+    .nepThemeLight .nepTopMenuContent span.sapMBtnInner.sapMBtnEmphasized,
+    .nepThemeLight .nepTopMenuContent .sapMBtn:hover:not(.sapMBtnDisabled)>.sapMBtnHoverable.sapMBtnTransparent:not(.sapMBtnActive):not(.sapMToggleBtnPressed)>.sapMBtnIcon,
+    .nepThemeLight .nepTopMenuContent *.sapMBtn:hover:not(.sapMBtnDisabled)>span.sapMBtnInner.sapMBtnTransparent:not(.sapMBtnActive):not(.sapMToggleBtnPressed)>.sapMBtnIcon,
+    .nepThemeLight .nepTopMenuContent :not(.sapMBtnDisabled):not(.sapMSBActive)>span.sapMBtnInner.sapMBtnTransparent:not(.sapMBtnActive):not(.sapMToggleBtnPressed):hover>.sapMBtnIcon {
+        color: #333;
+    }
+    .nepThemeDark .nepTopMenuContent .sapMBtn:hover>.sapMBtnHoverable,
+    .nepThemeDark .nepTopMenuContent :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive,
+    .nepThemeDark .nepTopMenuContent :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive .sapMBtnIcon,
+    .nepThemeDark .nepTopMenuContent span.sapMBtnInner.sapMBtnEmphasized,
+    .nepThemeDark .nepTopMenuContent .sapMBtn:hover:not(.sapMBtnDisabled)>.sapMBtnHoverable.sapMBtnTransparent:not(.sapMBtnActive):not(.sapMToggleBtnPressed)>.sapMBtnIcon,
+    .nepThemeDark .nepTopMenuContent *.sapMBtn:hover:not(.sapMBtnDisabled)>span.sapMBtnInner.sapMBtnTransparent:not(.sapMBtnActive):not(.sapMToggleBtnPressed)>.sapMBtnIcon,
+    .nepThemeDark .nepTopMenuContent :not(.sapMBtnDisabled):not(.sapMSBActive)>span.sapMBtnInner.sapMBtnTransparent:not(.sapMBtnActive):not(.sapMToggleBtnPressed):hover>.sapMBtnIcon {
+        color: #fafafa;
+    }
+    .nepThemeLight .sapMNCIconImage {
+        color: #333;
+    }
+    .nepThemeDark .sapMNCIconImage {
+        color: #fafafa;
+    }
+    .nepThemeLight .nepSubMenu .sapMBtnInner {
+        color: #666;
+    }
+    .nepThemeDark .nepSubMenu .sapMBtnInner {
+        color: #dedede;
+    }
+    .nepThemeLight .nepOpenAppsBtn .sapMBtnInner,
+    .nepThemeLight .nepTreeCategory .sapMTreeItemBaseExpander {
+        color: #666;
+    }
+    .nepThemeDark .nepOpenAppsBtn .sapMBtnInner,
+    .nepThemeDark .nepTreeCategory .sapMTreeItemBaseExpander {
+        color: #dedede;
+    }
+    .nepThemeLight .nepOpenAppsBtn .sapMBtnIcon,
+    .nepThemeLight .nepMainBar .sapMSFF,
+    .nepThemeLight .nepMainBar .sapMSFB,
+    .nepThemeLight .nepPopover .sapMSFF,
+    .nepThemeLight .nepPopover .sapMSFB {
+        color: #888;
+    }
+    .nepThemeDark .nepOpenAppsBtn .sapMBtnIcon,
+    .nepThemeDark .nepMainBar .sapMSFF,
+    .nepThemeDark .nepMainBar .sapMSFB,
+    .nepThemeDark .nepPopover .sapMSFF,
+    .nepThemeDark .nepPopover .sapMSFB {
+        color: #ccc;
+    }
+    .nepThemeLight .sapMDialogStretched.nepPopover .nepOpenAppsBtn .sapMBtnIcon,
+    .nepThemeLight .sapMDialogStretched .nepOpenAppsClose.sapUiIcon,
+    .nepThemeLight .sapMDialogStretched.nepOverflowMenu .sapMSTIIcon,
+    .nepThemeLight .sapMDialogStretched.nepOverflowMenu .nepTreeCategory .sapMTreeItemBaseExpander {
+        color: #888;
+    }
+    .nepThemeDark .sapMDialogStretched.nepPopover .nepOpenAppsBtn .sapMBtnIcon,
+    .nepThemeDark .sapMDialogStretched .nepOpenAppsClose.sapUiIcon,
+    .nepThemeDark .sapMDialogStretched.nepOverflowMenu .sapMSTIIcon,
+    .nepThemeDark .sapMDialogStretched.nepOverflowMenu .nepTreeCategory .sapMTreeItemBaseExpander {
+        color: #ccc;
+    }
+    .nepThemeLight .sapMDialogStretched .nepOpenAppsBtn .sapMBtnInner,
+    .nepThemeLight .sapMDialogStretched.nepOverflowMenu .nepOpenAppsBtn .sapMBtnInner,
+    .nepThemeLight .sapMDialogStretched.nepOverflowMenu .sapMBtnInner,
+    .nepThemeLight .sapMDialogStretched.nepOverflowMenu .sapMTreeItemBase {
+        color: #333;
+    }
+    .nepThemeDark .sapMDialogStretched .nepOpenAppsBtn .sapMBtnInner,
+    .nepThemeDark .sapMDialogStretched.nepOverflowMenu .nepOpenAppsBtn .sapMBtnInner,
+    .nepThemeDark .sapMDialogStretched.nepOverflowMenu .sapMBtnInner,
+    .nepThemeDark .sapMDialogStretched.nepOverflowMenu .sapMTreeItemBase {
+        color: #fafafa;
+    }
+    .nepThemeLight .nepOpenAppsClose.sapUiIcon {
+        color: #333;
+    }
+    .nepThemeDark .nepOpenAppsClose.sapUiIcon {
+        color: #fafafa;
+    }
+    .nepThemeLight .nepPopover .sapMBtnIcon,
+    .nepThemeLight .nepMainBar .sapMBtnIcon {
+        color: #888;
+    }
+    .nepThemeDark .nepPopover .sapMBtnIcon,
+    .nepThemeDark .nepMainBar .sapMBtnIcon {
+        color: #ccc;
+    }
+    .nepThemeLight .nepOpenAppsBtn .sapMBtnIcon {
+        color: #888;
+    }
+    .nepThemeDark .nepOpenAppsBtn .sapMBtnIcon {
+        color: #ccc;
+    }
+    .nepThemeLight .nepPopover .sapMIBar-CTX.sapMHeader-CTX :not(.sapMBtnDisabled)>.sapMBtnActive,
+    .nepThemeLight .nepPopover .sapMIBar-CTX.sapMFooter-CTX :not(.sapMBtnDisabled)>.sapMBtnActive,
+    .nepThemeLight .nepMainBar .sapMIBar-CTX.sapMHeader-CTX :not(.sapMBtnDisabled)>.sapMBtnActive,
+    .nepThemeLight .nepMainBar .sapMIBar-CTX.sapMFooter-CTX :not(.sapMBtnDisabled)>.sapMBtnActive {
+        color: #888;
+    }
+    .nepThemeDark .nepPopover .sapMIBar-CTX.sapMHeader-CTX :not(.sapMBtnDisabled)>.sapMBtnActive,
+    .nepThemeDark .nepPopover .sapMIBar-CTX.sapMFooter-CTX :not(.sapMBtnDisabled)>.sapMBtnActive,
+    .nepThemeDark .nepMainBar .sapMIBar-CTX.sapMHeader-CTX :not(.sapMBtnDisabled)>.sapMBtnActive,
+    .nepThemeDark .nepMainBar .sapMIBar-CTX.sapMFooter-CTX :not(.sapMBtnDisabled)>.sapMBtnActive {
+        color: #ccc;
+    }
+    .nepThemeLight .nepPopover :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive .sapMBtnIcon,
+    .nepThemeLight .nepPopover .sapMIBar-CTX .sapMLabel,
+    .nepThemeLight .nepMainBar :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive .sapMBtnIcon,
+    .nepThemeLight .nepMainBar .sapMIBar-CTX .sapMLabel {
+        color: #333;
+    }
+    .nepThemeDark .nepPopover :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive .sapMBtnIcon,
+    .nepThemeDark .nepPopover .sapMIBar-CTX .sapMLabel,
+    .nepThemeDark .nepMainBar :not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive .sapMBtnIcon,
+    .nepThemeDark .nepMainBar .sapMIBar-CTX .sapMLabel {
+        color: #fafafa;
+    }
+    .nepThemeLight .nepListSetting .sapMLIB.sapMLIBActive {
+        color: #333;
+    }
+    .nepThemeDark .nepListSetting .sapMLIB.sapMLIBActive {
+        color: #fafafa;
+    }
+    .nepThemeLight .nepUserActionText.sapMText {
+        color: #333;
+    }
+    .nepThemeDark .nepUserActionText.sapMText {
+        color: #fafafa;
+    }
+    .nepThemeLight .nepNotificationItem .sapMLIBIconDel:not(.sapMBtnDisabled) .sapMBtnTransparent>.sapMBtnIcon {
+        color: #666;
+    }
+    .nepThemeDark .nepNotificationItem .sapMLIBIconDel:not(.sapMBtnDisabled) .sapMBtnTransparent>.sapMBtnIcon {
+        color: #dedede;
+    }
+    .nepThemeLight .nepPopSimpleTitle.sapMText {
+        color: #666;
+    }
+    .nepThemeDark .nepPopSimpleTitle.sapMText {
+        color: #dedede;
+    }
+    .nepThemeLight .sapMLabelRequired.nepLabelHelp:before {
+        color: #c14646;
+    }
+    .nepThemeDark .sapMLabelRequired.nepLabelHelp:before {
+        color: #c14646;
+    }
+    .nepThemeLight .nepNotifHeader.sapMText {
+        color: #666;
+    }
+    .nepThemeDark .nepNotifHeader.sapMText {
+        color: #dedede;
+    }
+    .nepThemeLight .nepFeed .sapMText {
+        color: #444;
+    }
+    .nepThemeDark .nepFeed .sapMText {
+        color: #d3d7d9;
+    }
+    .nepThemeLight .nepFCard .sapSuiteUiMicroChartNoData {
+        color: #ccc;
+    }
+    .nepThemeDark .nepFCard .sapSuiteUiMicroChartNoData {
+        color: #888;
+    }
+    .nepThemeLight .nepNumpadPanel .sapMBtnIcon,
+    .nepThemeLight .numPad .sapMBtnInner {
+        color: #333;
+    }
+    .nepThemeDark .nepNumpadPanel .sapMBtnIcon,
+    .nepThemeDark .numPad .sapMBtnInner {
+        color: #fafafa;
+    }
+    .nepThemeLight .nepLogonLayout .sapMBtnInner,
+    .nepThemeLight .nepAppCacheUser .sapMLIB.sapMLIBActive,
+    .nepThemeLight .nepAppCacheUser .sapMLIBActive div,
+    .nepThemeLight .nepAppCacheUser .sapMLIBActive .sapMText {
+        color: #333;
+    }
+    .nepThemeDark .nepLogonLayout .sapMBtnInner,
+    .nepThemeDark .nepAppCacheUser .sapMLIB.sapMLIBActive,
+    .nepThemeDark .nepAppCacheUser .sapMLIBActive div,
+    .nepThemeDark .nepAppCacheUser .sapMLIBActive .sapMText {
+        color: #fafafa;
+    }
+    /* BORDER COLOR */
+    .nepThemeLight .nepMainBar .sapMSFF,
+    .nepThemeLight .nepPopover .sapMSFF,
+    .nepThemeLight .nepMainBar .sapMSFF:hover,
+    .nepThemeLight .nepPopover .sapMSFF:hover,
+    .nepThemeLight .nepLaunchpadMenuSettings {
+        border-color: #dedede;
+    }
+    .nepThemeDark .nepMainBar .sapMSFF,
+    .nepThemeDark .nepPopover .sapMSFF,
+    .nepThemeDark .nepMainBar .sapMSFF:hover,
+    .nepThemeDark .nepPopover .sapMSFF:hover,
+    .nepThemeDark .nepLaunchpadMenuSettings {
+        border-color: #666;
+    }
+    .nepThemeLight .nepTopMenu,
+    .nepThemeLight .nepMainBar,
+    .nepThemeLight .nepNavBarContent,
+    .nepThemeLight .nepNavBarContent .sapMTBStandard,
+    .nepThemeLight .nepDocPage {
+        border-color: #ccc;
+    }
+    .nepThemeDark .nepTopMenu,
+    .nepThemeDark .nepMainBar,
+    .nepThemeDark .nepNavBarContent,
+    .nepThemeDark .nepNavBarContent .sapMTBStandard,
+    .nepThemeDark .nepDocPage {
+        border-color: #888;
+    }
+    .nepThemeLight .nepCatTitle.sapMTitle,
+    .nepThemeLight .nepCatSubTitle.sapMTitle {
+        border-color: #333;
+    }
+    .nepThemeDark .nepCatTitle.sapMTitle,
+    .nepThemeDark .nepCatSubTitle.sapMTitle {
+        border-color: #fafafa;
+    }
+    .nepThemeLight .nepTopMenuActive,
+    .nepThemeLight .nepTopMenuBtn.sapMBtn:hover,
+    .nepThemeLight .nepIconActive {
+        border-color: #d3d7d9;
+    }
+    .nepThemeDark .nepTopMenuActive,
+    .nepThemeDark .nepTopMenuBtn.sapMBtn:hover,
+    .nepThemeDark .nepIconActive {
+        border-color: #d3d7d9;
+    }
+    .nepThemeLight .nepOverflowMenu.nepPopover.sapMPopover {
+        border-top-color: #d3d7d9;
+    }
+    .nepThemeDark .nepOverflowMenu.nepPopover.sapMPopover {
+        border-top-color: #d3d7d9;
+    }
+    .nepThemeLight .nepOverflowMenu.sapMPopover {
+        border-top-color: #d3d7d9;
+    }
+    .nepThemeDark .nepOverflowMenu.sapMPopover {
+        border-top-color: #d3d7d9;
+    }
+    .nepThemeLight .nepSelectUser {
+        border-color: #888;
+    }
+    .nepThemeDark .nepSelectUser {
+        border-color: #ccc;
+    }
+    .nepThemeLight .nepLogonLayout .sapMBtnInner {
+        border-color: #888;
+    }
+    .nepThemeDark .nepLogonLayout .sapMBtnInner {
+        border-color: #ccc;
+    }
+    .nepThemeLight .numPad:not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive {
+        border-color: rgba(0, 0, 0, 0.5);
+    }
+    .nepThemeDark .numPad:not(.sapMBtnDisabled)>.sapMBtnInner.sapMBtnActive {
+        border-color: rgba(255, 255, 255, 0.5);
+    }
+    /*--------------------------------------------------------------------------------------------------*/
+    /* SAP QUARTZ LIGHT */
+    /*--------------------------------------------------------------------------------------------------*/
+    .nepThemeLight .nepActionContainer .sapMBtnInner,
+    .nepThemeLight .nepActionContainer .sapMBtn:hover>.sapMBtnHoverable {
+        background-color: transparent;
+        border-color: #333;
+        color: #333;
+    }
+    .nepThemeLight .nepActionContainer .sapMBtnIcon {
+        color: #333;
+    }
+    /*--------------------------------------------------------------------------------------------------*/
+    /* SAP QUARTZ DARK */
+    /*--------------------------------------------------------------------------------------------------*/
+    .nepThemeDark .nepActionContainer .sapMBtnInner,
+    .nepThemeDark .nepActionContainer .sapMBtn:hover>.sapMBtnHoverable {
+        background-color: transparent;
+        border-color: #d3d7d9;
+        color: #d3d7d9;
+    }
+    .nepThemeDark .nepActionContainer .sapMBtnIcon,
+    .nepThemeDark .nepFCard.sapFCard .sapFCardHeader .sapFCardIcon.sapFAvatar .sapUiIcon {
+        color: #d3d7d9;
+    }
+}
+
+/* QUARTZ LIGHT CARD BACKGROUNDS */
+
+.nepThemeLight .sapColorSet1A {
+    background-color: #fefaf4;
+}
+
+.nepThemeLight .sapColorSet1B {
+    background-color: #fdf5eb;
+}
+
+.nepThemeLight .sapColorSet1C {
+    background-color: #fcf1e2;
+}
+
+.nepThemeLight .sapColorSet1D {
+    background-color: #fbecd8;
+}
+
+.nepThemeLight .sapColorSet2A {
+    background-color: #fdf7f7;
+}
+
+.nepThemeLight .sapColorSet2B {
+    background-color: #fbeeee;
+}
+
+.nepThemeLight .sapColorSet2C {
+    background-color: #f9e6e6;
+}
+
+.nepThemeLight .sapColorSet2D {
+    background-color: #f7dede;
+}
+
+.nepThemeLight .sapColorSet3A {
+    background-color: #fef6fa;
+}
+
+.nepThemeLight .sapColorSet3B {
+    background-color: #fcedf4;
+}
+
+.nepThemeLight .sapColorSet3C {
+    background-color: #fbe4ef;
+}
+
+.nepThemeLight .sapColorSet3D {
+    background-color: #fadbea;
+}
+
+.nepThemeLight .sapColorSet4A {
+    background-color: #fefafd;
+}
+
+.nepThemeLight .sapColorSet4B {
+    background-color: #fbf3f9;
+}
+
+.nepThemeLight .sapColorSet4C {
+    background-color: #f9ebf5;
+}
+
+.nepThemeLight .sapColorSet4D {
+    background-color: #f7e3f2;
+}
+
+.nepThemeLight .sapColorSet5A {
+    background-color: #f6f7fd;
+}
+
+.nepThemeLight .sapColorSet5B {
+    background-color: #eeeefb;
+}
+
+.nepThemeLight .sapColorSet5C {
+    background-color: #e5e6fa;
+}
+
+.nepThemeLight .sapColorSet5D {
+    background-color: #dddef8;
+}
+
+.nepThemeLight .sapColorSet6A {
+    background-color: #f7fafd;
+}
+
+.nepThemeLight .sapColorSet6B {
+    background-color: #eff5fb;
+}
+
+.nepThemeLight .sapColorSet6C {
+    background-color: #e7f0fa;
+}
+
+.nepThemeLight .sapColorSet6D {
+    background-color: #deebf8;
+}
+
+.nepThemeLight .sapColorSet7A {
+    background-color: #f6fdfe;
+}
+
+.nepThemeLight .sapColorSet7B {
+    background-color: #ecfbfd;
+}
+
+.nepThemeLight .sapColorSet7C {
+    background-color: #e3fafc;
+}
+
+.nepThemeLight .sapColorSet7D {
+    background-color: #daf8fb;
+}
+
+.nepThemeLight .sapColorSet8A {
+    background-color: #fcfef5;
+}
+
+.nepThemeLight .sapColorSet8B {
+    background-color: #f9feec;
+}
+
+.nepThemeLight .sapColorSet8C {
+    background-color: #f6fde2;
+}
+
+.nepThemeLight .sapColorSet8D {
+    background-color: #f3fcd9;
+}
+
+.nepThemeLight .sapColorSet9A {
+    background-color: #ffffff;
+}
+
+.nepThemeLight .sapColorSet9B {
+    background-color: #fafafa;
+}
+
+.nepThemeLight .sapColorSet9C {
+    background-color: #f5f5f5;
+}
+
+.nepThemeLight .sapColorSet9D {
+    background-color: #f0f0f0;
+}
+
+.nepThemeLight .sapColorSet10A {
+    background-color: #ebebeb;
+}
+
+.nepThemeLight .sapColorSet10B {
+    background-color: #e6e6e6;
+}
+
+.nepThemeLight .sapColorSet10C {
+    background-color: #e0e0e0;
+}
+
+.nepThemeLight .sapColorSet10D {
+    background-color: #dbdbdb;
+}
+
+.nepThemeLight .sapColorSet11A {
+    background-color: #f5faff;
+}
+
+.nepThemeLight .sapColorSet11B {
+    background-color: #ebf5fe;
+}
+
+.nepThemeLight .sapColorSet11C {
+    background-color: #e2f0fe;
+}
+
+.nepThemeLight .sapColorSet11D {
+    background-color: #d8ebfd;
+}
+
+/* QUARTZ DARK CARD BACKGROUNDS */
+
+.nepThemeDark .sapColorSet1A {
+    background-color: #382700;
+}
+
+.nepThemeDark .sapColorSet1B {
+    background-color: #422e00;
+}
+
+.nepThemeDark .sapColorSet1C {
+    background-color: #4c3500;
+}
+
+.nepThemeDark .sapColorSet1D {
+    background-color: #563d00;
+}
+
+.nepThemeDark .sapColorSet2A {
+    background-color: #6d1c1c;
+}
+
+.nepThemeDark .sapColorSet2B {
+    background-color: #751e1e;
+}
+
+.nepThemeDark .sapColorSet2C {
+    background-color: #7d2020;
+}
+
+.nepThemeDark .sapColorSet2D {
+    background-color: #862222;
+}
+
+.nepThemeDark .sapColorSet3A {
+    background-color: #6a0a29;
+}
+
+.nepThemeDark .sapColorSet3B {
+    background-color: #730a2d;
+}
+
+.nepThemeDark .sapColorSet3C {
+    background-color: #7c0b31;
+}
+
+.nepThemeDark .sapColorSet3D {
+    background-color: #860c34;
+}
+
+.nepThemeDark .sapColorSet4A {
+    background-color: #400c35;
+}
+
+.nepThemeDark .sapColorSet4B {
+    background-color: #480e3c;
+}
+
+.nepThemeDark .sapColorSet4C {
+    background-color: #51104a;
+}
+
+.nepThemeDark .sapColorSet4D {
+    background-color: #59114a;
+}
+
+.nepThemeDark .sapColorSet5A {
+    background-color: #1c2d4c;
+}
+
+.nepThemeDark .sapColorSet5B {
+    background-color: #1e3253;
+}
+
+.nepThemeDark .sapColorSet5C {
+    background-color: #21365a;
+}
+
+.nepThemeDark .sapColorSet5D {
+    background-color: #243b62;
+}
+
+.nepThemeDark .sapColorSet6A {
+    background-color: #003952;
+}
+
+.nepThemeDark .sapColorSet6B {
+    background-color: #00405c;
+}
+
+.nepThemeDark .sapColorSet6C {
+    background-color: #004866;
+}
+
+.nepThemeDark .sapColorSet6D {
+    background-color: #004f70;
+}
+
+.nepThemeDark .sapColorSet7A {
+    background-color: #2a5e5e;
+}
+
+.nepThemeDark .sapColorSet7B {
+    background-color: #2d6565;
+}
+
+.nepThemeDark .sapColorSet7C {
+    background-color: #306c6c;
+}
+
+.nepThemeDark .sapColorSet7D {
+    background-color: #337373;
+}
+
+.nepThemeDark .sapColorSet8A {
+    background-color: #27410e;
+}
+
+.nepThemeDark .sapColorSet8B {
+    background-color: #2c4a10;
+}
+
+.nepThemeDark .sapColorSet8C {
+    background-color: #315212;
+}
+
+.nepThemeDark .sapColorSet8D {
+    background-color: #365a14;
+}
+
+.nepThemeDark .sapColorSet9A {
+    background-color: #30164c;
+}
+
+.nepThemeDark .sapColorSet9B {
+    background-color: #351853;
+}
+
+.nepThemeDark .sapColorSet9C {
+    background-color: #3a1b5b;
+}
+
+.nepThemeDark .sapColorSet9D {
+    background-color: #3f1d63;
+}
+
+.nepThemeDark .sapColorSet10A {
+    background-color: #323c44;
+}
+
+.nepThemeDark .sapColorSet10B {
+    background-color: #36424a;
+}
+
+.nepThemeDark .sapColorSet10C {
+    background-color: #3b4750;
+}
+
+.nepThemeDark .sapColorSet10D {
+    background-color: #3f4c56;
+}
+
+.nepThemeDark .sapColorSet11A {
+    background-color: #042037;
+}
+
+.nepThemeDark .sapColorSet11B {
+    background-color: #052540;
+}
+
+.nepThemeDark .sapColorSet11C {
+    background-color: #062b4a;
+}
+
+.nepThemeDark .sapColorSet11D {
+    background-color: #073053;
+}
+
+.nepCardDescription {
+    padding: 0 1rem 1rem 1rem
+}
+
+.nepActionConfig {
+    margin-right: -10px;
+}
+
+.nepActionConfig .sapMBtnInner {
+    border: none;
+}
+
+.dragPlaceholder {
+    border: 2px dotted orange;
+    min-height: 200px;
+}
+
+.dragCursor {
+    cursor: pointer;
+}
+
+.nepToolNoBorder.sapMTBStandard {
+    border-bottom: none;
+}
+
+.nepToolNoBorder.sapMIBar.sapMTB .sapMBarChild:only-child {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.nepLayout .nepMainBar .sapMLIB {
+    background: transparent;
+}
+
+.nepLayout .nepMainBar .sapMIBar.sapMHeader-CTX {
+    background: transparent;
+}
+
+.nepMultiMenu.sapMDialog.sapUiPopupWithPadding:not(.sapUiNoContentPadding) .sapMDialogScrollCont {
+    padding: 0;
+}
+
+.nepMultiMenu:not(.nepMainBar) {
+    min-width: 300px;
+}
+
+.nepMultiMenu .sapMIBar.sapMSubHeader-CTX {
+    background-color: transparent;
+}
+
+.nepMultiMenu .sapMBar {
+    box-shadow: none;
+}
+
+.nepMultiMenu .sapMIBar.sapMTB .sapMBarChild:only-child {
+    padding-left: 0;
+}
+
+.nepMultiMenu .sapMTBStandard {
+    border-bottom: none;
+    padding: 0 .5rem;
+    background-color: transparent !important;
+}
+
+.nepMainBar.sapMPage>.sapMPageHeader {
+    box-shadow: none;
+    border-bottom: none;
+}
+
+.nepMainBar.sapMPage.sapMPageWithSubHeader>.sapMPageSubHeader {
+    box-shadow: none;
+    border-bottom: none;
+}
+
+.nepCardHeaderSubTitle {
+    margin: 0.2rem 0 0 0;
+    font-size: 0.875rem;
+    font-weight: normal;
+}
+
+.nepCardHeaderStatus {
+    font-size: 0.75rem;
+}
+
+.nepThemeDark .nepCardHeaderStatus {
+    color: #d3d7d9;
+}
+
+.nepThemeLight .nepCardHeaderStatus {
+    color: #6a6d70;
+}
+
+.nepCardHeaderIcon {
+    margin-right: 20px;
+    line-height: 2.5rem;
+    -webkit-border-radius: 50%;
+}
+
+.nepICCard {
+    box-shadow: none !important;
+    background: transparent;
+}
